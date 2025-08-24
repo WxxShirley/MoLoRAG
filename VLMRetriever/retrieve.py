@@ -196,5 +196,6 @@ if __name__ == "__main__":
         if "evidence_pages" in sample:
             print("Ground-truth", sample["evidence_pages"])
         print("Prediction", ranked_pages[:5], "\n")
-
+        
+        os.makedirs(os.path.dirname(retrieve_file), exist_ok=True)
         json.dump(samples, open(retrieve_file, 'w'), indent=4)
