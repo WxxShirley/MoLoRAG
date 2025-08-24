@@ -17,8 +17,9 @@ openai==1.71.0
 
 Step 0 - API Key
 
-Prepare api keys in both `rag.py` (Qwen-RAG), `apis.py` (LLM API), and `main.py` (Qwen-RAG)
+Prepare api keys in `rag.py` (Qwen-RAG), `apis.py` (LLM API), and `main.py` (Qwen-RAG)
 
+> Qwen-RAG requires Dashscope API Key from https://dashscope.console.aliyun.com/overview 
 
 Step 1 - RAG 
 
