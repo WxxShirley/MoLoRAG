@@ -14,7 +14,7 @@ def format_image_path(raw_path):
 def init_model(model_name, device=torch.device("cuda")):
     if "lora" in model_name: 
         # TODO: adjust the path based on your actual environment
-        model_path = "/data/xxwu/BeamSearchRAG/VLMRetriever/QwenVL-3B-Model"
+        model_path = "xxwu/MoLoRAG-QwenVL-3B"
         print(f"Loading LoRA model from {model_path}")
     elif "3B" in model_name:
         model_path =  "Qwen/Qwen2.5-VL-3B-Instruct"

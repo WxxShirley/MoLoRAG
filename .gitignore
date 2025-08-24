@@ -24,11 +24,11 @@ __pycache__
 *.faiss
 *.pkl
 
-/tmp_dbs
-/tmp_dbs/
-/tmp_imgs
-/tmp_imgs/
-/tmp_embs
-/tmp_embs/
-/tmp_txts
-/tmp_txts/
+/tmp/tmp_dbs
+/tmp/tmp_dbs/
+/tmp/tmp_imgs
+/tmp/tmp_imgs/
+/tmp/tmp_embs
+/tmp/tmp_embs/
+/tmp/tmp_txts
+/tmp/tmp_txts/
