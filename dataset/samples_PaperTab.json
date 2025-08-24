@@ -1,0 +1,2753 @@
+[
+    {
+        "id": "5eda469a8a77f028d0c5f1acd296111085614537",
+        "doc_id": "1912.01214.pdf",
+        "question": "what language pairs are explored?",
+        "answer": "['French-English-Spanish (Fr-En-Es), German-English-French (De-En-Fr) and Romanian-English-German (Ro-En-De), Arabic (Ar), Spanish (Es), and Russian (Ru), and mutual translation between themselves constitutes six zero-shot translation', 'De-En, En-Fr, Fr-En, En-Es, Ro-En, En-De, Ar-En, En-Ru']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "ef4dba073d24042f24886580ae77add5326f2130",
+        "doc_id": "1801.05147.pdf",
+        "question": "What accuracy does the proposed system achieve?",
+        "answer": "['F1 scores of 85.99 on the DL-PS data,  75.15 on the EC-MT data and 71.53 on the EC-UQ data ', 'F1 of 85.99 on the DL-PS dataset (dialog domain); 75.15 on EC-MT and 71.53 on EC-UQ (e-commerce domain)']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "9ee07edc371e014df686ced4fb0c3a7b9ce3d5dc",
+        "doc_id": "1704.06194.pdf",
+        "question": "On which benchmarks they achieve the state of the art?",
+        "answer": "['WebQSP, SimpleQuestions', 'SimpleQuestions, WebQSP']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "891c2001d6baaaf0da4e65b647402acac621a7d2",
+        "doc_id": "1909.00512.pdf",
+        "question": "How do they calculate a static embedding for each word?",
+        "answer": "[' by taking the first principal component (PC) of its contextualized representations in a given layer', \"They use the first principal component of a word's contextualized representation in a given layer as its static embedding.\"]",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "66c96c297c2cffdf5013bab5e95b59101cb38655",
+        "doc_id": "2003.03106.pdf",
+        "question": "What is the performance of BERT on the task?",
+        "answer": "['F1 scores are:\\nHUBES-PHI: Detection(0.965), Classification relaxed (0.95), Classification strict (0.937)\\nMedoccan: Detection(0.972), Classification (0.967)', 'BERT remains only 0.3 F1-score points behind, and would have achieved the second position among all the MEDDOCAN shared task competitors. Taking into account that only 3% of the gold labels remain incorrectly annotated,  Table ']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "efe9bad55107a6be7704ed97ecce948a8ca7b1d2",
+        "doc_id": "1909.11687.pdf",
+        "question": "What state-of-the-art compression techniques were used in the comparison?",
+        "answer": "['NoKD, PKD, BERTBASE teacher model', 'baseline without knowledge distillation (termed NoKD), Patient Knowledge Distillation (PKD)']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "f17ca24b135f9fe6bb25dc5084b13e1637ec7744",
+        "doc_id": "1804.05918.pdf",
+        "question": "What discourse relations does it work best/worst for?",
+        "answer": "['explicit discourse relations', 'Best: Expansion (Exp). Worst: Comparison (Comp).']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "doc_id": "2002.01664.pdf",
+        "question": "Which 7 Indian languages do they experiment with?",
+        "answer": "['Hindi, English, Kannada, Telugu, Assamese, Bengali and Malayalam', 'Kannada, Hindi, Telugu, Malayalam, Bengali,  English and Assamese (in table, missing in text)']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "a99fdd34422f4231442c220c97eafc26c76508dd",
+        "doc_id": "1809.00540.pdf",
+        "question": "Do they use graphical models?",
+        "answer": "No",
+        "answer_format": "Str"
+    },
+    {
+        "id": "d604f5fb114169f75f9a38fab18c1e866c5ac28b",
+        "doc_id": "1809.00540.pdf",
+        "question": "What metric is used for evaluation?",
+        "answer": "['Precision, recall, F1, accuracy', 'F1, precision, recall, accuracy']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "1d3e914d0890fc09311a70de0b20974bf7f0c9fe",
+        "doc_id": "2004.03354.pdf",
+        "question": "Which eight NER tasks did they evaluate on?",
+        "answer": "BC5CDR-disease, NCBI-disease, BC5CDR-chem, BC4CHEMD, BC2GM, JNLPBA, LINNAEUS, Species-800",
+        "answer_format": "Str"
+    },
+    {
+        "id": "897ba53ef44f658c128125edd26abf605060fb13",
+        "doc_id": "1611.04798.pdf",
+        "question": "Do they test their framework performance on commonly used language pairs, such as English-to-German?",
+        "answer": "Yes",
+        "answer_format": "Str"
+    },
+    {
+        "id": "c32adef59efcb9d1a5b10e1d7c999a825c9e6d9a",
+        "doc_id": "1809.01541.pdf",
+        "question": "What languages are evaluated?",
+        "answer": "German, English, Spanish, Finnish, French, Russian,  Swedish.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "32a3c248b928d4066ce00bbb0053534ee62596e7",
+        "doc_id": "1809.01541.pdf",
+        "question": "What is MSD prediction?",
+        "answer": "['The task of predicting MSD tags: V, PST, V.PCTP, PASS.', 'morphosyntactic descriptions (MSD)']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "d3dbb5c22ef204d85707d2d24284cc77fa816b6c",
+        "doc_id": "1809.09194.pdf",
+        "question": "What other models do they compare to?",
+        "answer": "['BNA, DocQA, R.M-Reader, R.M-Reader + Verifier, DocQA + ELMo, R.M-Reader+Verifier+ELMo', 'SAN Baseline, BNA, DocQA, R.M-Reader, R.M-Reader+Verifier and DocQA+ELMo']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "286078813136943dfafb5155ee15d2429e7601d9",
+        "doc_id": "1802.06024.pdf",
+        "question": "How much better than the baseline is LiLi?",
+        "answer": "In case of Freebase knowledge base, LiLi model had better F1 score than the single model by 0.20 , 0.01, 0.159 for kwn, unk, and all test Rel type.  The values for WordNet are 0.25, 0.1, 0.2. \n",
+        "answer_format": "Str"
+    },
+    {
+        "id": "6aa2a1e2e3666f2b2a1f282d4cbdd1ca325eb9de",
+        "doc_id": "1809.00530.pdf",
+        "question": "How many labels do the datasets have?",
+        "answer": "['Book, Electronics, Beauty and Music each have 6000, IMDB 84919, Yelp 231163, Cell Phone 194792 and Baby 160792 labeled data.', '719313']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "9176d2ba1c638cdec334971c4c7f1bb959495a8e",
+        "doc_id": "1809.00530.pdf",
+        "question": "What are the source and target domains?",
+        "answer": "['we use set 1 of the source domain as the only source with sentiment label information during training, and we evaluate the trained model on set 1 of the target domain, Book (BK), Electronics (E), Beauty (BT), and Music (M)', 'Book, electronics, beauty, music, IMDB, Yelp, cell phone, baby, DVDs, kitchen']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "b1bc9ae9d40e7065343c12f860a461c7c730a612",
+        "doc_id": "1912.08960.pdf",
+        "question": "Which datasets are used?",
+        "answer": "['Existential (OneShape, MultiShapes), Spacial (TwoShapes, Multishapes), Quantification (Count, Ratio) datasets are generated from ShapeWorldICE', 'ShapeWorldICE datasets: OneShape, MultiShapes, TwoShapes, MultiShapes, Count, and Ratio']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "9da1e124d28b488b0d94998d32aa2fa8a5ebec51",
+        "doc_id": "2002.11910.pdf",
+        "question": "What are previous state of the art results?",
+        "answer": "['Overall F1 score:\\n- He and Sun (2017) 58.23\\n- Peng and Dredze (2017) 58.99\\n- Xu et al. (2018) 59.11', 'For Named entity the maximum precision was 66.67%, and the average 62.58%, same values for Recall was 55.97% and 50.33%, and for F1 57.14% and 55.64%. Where for Nominal Mention had maximum recall of 74.48% and average of 73.67%, Recall had values of 54.55% and 53.7%,  and F1 had values of  62.97% and 62.12%. Finally the Overall F1 score had maximum value of 59.11% and average of 58.77%']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "37be0d479480211291e068d0d3823ad0c13321d3",
+        "doc_id": "1909.09587.pdf",
+        "question": "What is the model performance on target language reading comprehension?",
+        "answer": "['Table TABREF6, Table TABREF8', 'when testing on English, the F1 score of the model training on Chinese (Zh) is 53.8,  F1 score is only 44.1 for the model training on Zh-En']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "a3d9b101765048f4b61cbd3eaa2439582ebb5c77",
+        "doc_id": "1909.09587.pdf",
+        "question": "What source-target language pairs were used in this work? ",
+        "answer": "['En-Fr, En-Zh, En-Jp, En-Kr, Zh-En, Zh-Fr, Zh-Jp, Zh-Kr to English, Chinese or Korean', 'English, Chinese, Korean, we translated the English and Chinese datasets into more languages, with Google Translate', 'English , Chinese']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "0ad4359e3e7e5e5f261c2668fe84c12bc762b3b8",
+        "doc_id": "1809.02286.pdf",
+        "question": "Which baselines did they compare against?",
+        "answer": "['Sentence classification baselines: RNTN (Socher et al. 2013), AdaMC-RNTN (Dong et al. 2014), TE-RNTN (Qian et al. 2015), TBCNN (Mou et al. 2015), Tree-LSTM (Tai, Socher, and Manning 2015), AdaHT-LSTM-CM (Liu, Qiu, and Huang 2017), DC-TreeLSTM (Liu, Qiu, and Huang 2017), TE-LSTM (Huang, Qian, and Zhu 2017), BiConTree (Teng and Zhang 2017), Gumbel Tree-LSTM (Choi, Yoo, and Lee 2018), TreeNet (Cheng et al. 2018), CNN (Kim 2014), AdaSent (Zhao, Lu, and Poupart 2015), LSTM-CNN (Zhou et al. 2016), byte-mLSTM (Radford, Jozefowicz, and Sutskever 2017), BCN + Char + CoVe (McCann et al. 2017), BCN + Char + ELMo (Peters et al. 2018). \\nStanford Natural Language Inference baselines: Latent Syntax Tree-LSTM (Yogatama et al. 2017), Tree-based CNN (Mou et al. 2016), Gumbel Tree-LSTM (Choi, Yoo, and Lee 2018), NSE (Munkhdalai and Yu 2017), Reinforced Self- Attention Network (Shen et al. 2018), Residual stacked encoders: (Nie and Bansal 2017), BiLSTM with generalized pooling (Chen, Ling, and Zhu 2018).', 'Various tree structured neural networks including variants of Tree-LSTM, Tree-based CNN, RNTN, and non-tree models including variants of LSTMs, CNNs, residual, and self-attention based networks']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "4cbe5a36b492b99f9f9fea8081fe4ba10a7a0e94",
+        "doc_id": "1809.01202.pdf",
+        "question": "What baselines did they consider?",
+        "answer": "['state-of-the-art PDTB taggers', 'Linear SVM, RBF SVM, and Random Forest']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "ffa7f91d6406da11ddf415ef094aaf28f3c3872d",
+        "doc_id": "1906.01081.pdf",
+        "question": "By how much more does PARENT correlate with human judgements in comparison to other text generation metrics?",
+        "answer": "['Their average correlation tops the best other model by 0.155 on WikiBio.', 'Best proposed metric has average correlation with human judgement of 0.913 and 0.846 compared to best compared metrics result of 0.758 and 0.829 on WikiBio and WebNLG challenge.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "b634ff1607ce5756655e61b9a6f18bc736f84c83",
+        "doc_id": "1812.10479.pdf",
+        "question": "Which stock market sector achieved the best performance?",
+        "answer": "['Energy', 'Energy with accuracy of 0.538']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "de5b6c25e35b3a6c5e40e350fc5e52c160b33490",
+        "doc_id": "1909.08089.pdf",
+        "question": "How much does their model outperform existing models?",
+        "answer": "['On arXiv dataset, the proposed model outperforms baselie model by (ROUGE-1,2,L)  0.67 0.72 0.77 respectively and by Meteor 0.31.\\n', 'Best proposed model result vs best previous result:\\nArxiv dataset: Rouge 1 (43.62 vs 42.81), Rouge L (29.30 vs 31.80), Meteor (21.78 vs 21.35)\\nPubmed dataset: Rouge 1 (44.85 vs 44.29), Rouge L (31.48 vs 35.21), Meteor (20.83 vs 20.56)']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "8b3d3953454c88bde88181897a7a2c0c8dd87e23",
+        "doc_id": "1609.00559.pdf",
+        "question": "What embedding techniques are explored in the paper?",
+        "answer": "['Skip\u2013gram, CBOW', 'integrated vector-res, vector-faith, Skip\u2013gram, CBOW']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "5a65ad10ff954d0f27bb3ccd9027e3d8f7f6bb76",
+        "doc_id": "1904.10503.pdf",
+        "question": "Which other approaches do they compare their model with?",
+        "answer": "['They compare to Akbik et al. (2018) and Link et al. (2012).', 'Akbik et al. (2018), Link et al. (2012)']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "f9bf6bef946012dd42835bf0c547c0de9c1d229f",
+        "doc_id": "1912.01772.pdf",
+        "question": "How is non-standard pronunciation identified?",
+        "answer": "Original transcription was labeled with additional labels in [] brackets with nonstandard pronunciation.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "4d28c99750095763c81bcd5544491a0ba51d9070",
+        "doc_id": "1909.04002.pdf",
+        "question": "What kind of celebrities do they obtain tweets from?",
+        "answer": "['Amitabh Bachchan, Ariana Grande, Barack Obama, Bill Gates, Donald Trump,\\nEllen DeGeneres, J K Rowling, Jimmy Fallon, Justin Bieber, Kevin Durant, Kim Kardashian, Lady Gaga, LeBron James,Narendra Modi, Oprah Winfrey', 'Celebrities from varioius domains - Acting, Music, Politics, Business, TV, Author, Sports, Modeling. ']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "443d2448136364235389039cbead07e80922ec5c",
+        "doc_id": "1712.00991.pdf",
+        "question": "What summarization algorithms did the authors experiment with?",
+        "answer": "['LSA, TextRank, LexRank', 'LSA, TextRank, LexRank and ILP-based summary.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "fb3d30d59ed49e87f63d3735b876d45c4c6b8939",
+        "doc_id": "1712.00991.pdf",
+        "question": "What evaluation metrics are looked at for classification tasks?",
+        "answer": "['Precision, Recall and F-measure', 'Precision, Recall, F-measure, accuracy']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "197b276d0610ebfacd57ab46b0b29f3033c96a40",
+        "doc_id": "1712.00991.pdf",
+        "question": "What methods were used for sentence classification?",
+        "answer": "['Logistic Regression, Multinomial Naive Bayes, Random Forest, AdaBoost, Linear SVM, SVM with ADWSK, Pattern-based approach', 'Logistic Regression, Multinomial Naive Bayes, Random Forest, AdaBoost, Linear SVM, SVM with ADWSK and Pattern-based']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "9ecde59ffab3c57ec54591c3c7826a9188b2b270",
+        "doc_id": "2003.04642.pdf",
+        "question": "What modern MRC gold standards are analyzed?",
+        "answer": "['fit our problem definition and were published in the years 2016 to 2019, have at least $(2019 - publication\\\\ year) \\\\times 20$ citations', 'MSMARCO,  HOTPOTQA, RECORD,  MULTIRC, NEWSQA, and DROP.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "38f58f13c7f23442d5952c8caf126073a477bac0",
+        "doc_id": "1904.07904.pdf",
+        "question": "What was the score of the proposed model?",
+        "answer": "['Best results authors obtain is EM 51.10 and F1 63.11', 'EM Score of 51.10']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "27275fe9f6a9004639f9ac33c3a5767fea388a98",
+        "doc_id": "2003.11645.pdf",
+        "question": "What hyperparameters are explored?",
+        "answer": "['Hyperparameters explored were: dimension size, window size, architecture, algorithm and epochs.', 'Dimension size, window size, architecture, algorithm, epochs, hidden dimension size, learning rate, loss function, optimizer algorithm.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "c2d1387e08cf25cb6b1f482178cca58030e85b70",
+        "doc_id": "2003.11645.pdf",
+        "question": "Do they test both skipgram and c-bow?",
+        "answer": "Yes",
+        "answer_format": "Str"
+    },
+    {
+        "id": "c2b8ee872b99f698b3d2082d57f9408a91e1b4c1",
+        "doc_id": "1608.06757.pdf",
+        "question": "what is the state of the art?",
+        "answer": "Babelfy, DBpedia Spotlight, Entityclassifier.eu, FOX, LingPipe MUC-7, NERD-ML, Stanford NER, TagMe 2",
+        "answer_format": "Str"
+    },
+    {
+        "id": "8bf7f1f93d0a2816234d36395ab40c481be9a0e0",
+        "doc_id": "1806.04330.pdf",
+        "question": "Do the authors also analyze transformer-based architectures?",
+        "answer": "No",
+        "answer_format": "Str"
+    },
+    {
+        "id": "2ddb51b03163d309434ee403fef42d6b9aecc458",
+        "doc_id": "1904.03288.pdf",
+        "question": "what were the baselines?",
+        "answer": "LF-MMI Attention\nSeq2Seq \nRNN-T \nChar E2E LF-MMI \nPhone E2E LF-MMI \nCTC + Gram-CTC",
+        "answer_format": "Str"
+    },
+    {
+        "id": "e587559f5ab6e42f7d981372ee34aebdc92b646e",
+        "doc_id": "1904.03288.pdf",
+        "question": "what competitive results did they obtain?",
+        "answer": "['In case of read speech datasets,  their best model got the highest nov93 score of 16.1 and the highest nov92 score of 13.3.\\nIn case of Conversational Speech, their best model got the highest SWB of 8.3 and the highest CHM of 19.3. ', \"On WSJ datasets author's best approach achieves 9.3 and 6.9 WER compared to best results of 7.5 and 4.1 on nov93 and nov92 subsets.\\nOn Hub5'00 datasets author's best approach achieves WER of 7.8 and 16.2 compared to best result of 7.3 and 14.2 on Switchboard (SWB) and Callhome (CHM) subsets.\"]",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "f68508adef6f4bcdc0cc0a3ce9afc9a2b6333cc5",
+        "doc_id": "1909.13714.pdf",
+        "question": "By how much is performance improved with multimodality?",
+        "answer": "['F1 score increased from 0.89 to 0.92', 'by 2.3-6.8 points in f1 score for intent recognition and 0.8-3.5 for slot filling']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "bdc91d1283a82226aeeb7a2f79dbbc57d3e84a1a",
+        "doc_id": "1909.03405.pdf",
+        "question": "How much is performance improved on NLI?",
+        "answer": "[' improvement on the RTE dataset is significant, i.e., 4% absolute gain over the BERTBase', 'The average score improved by 1.4 points over the previous best result.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "761de1610e934189850e8fda707dc5239dd58092",
+        "doc_id": "1907.03060.pdf",
+        "question": "what was the baseline?",
+        "answer": "['M2M Transformer', 'pivot-based translation relying on a helping language BIBREF10, nduction of phrase tables from monolingual data BIBREF14 , attentional RNN-based model (RNMT) BIBREF2, Transformer model BIBREF18, bi-directional model BIBREF11, multi-to-multi (M2M) model BIBREF8, back-translation BIBREF17']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "603fee7314fa65261812157ddfc2c544277fcf90",
+        "doc_id": "1911.10049.pdf",
+        "question": "How larger are the training sets of these versions of ELMo compared to the previous ones?",
+        "answer": "['up to 1.95 times larger', 'By 14 times.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "09a1173e971e0fcdbf2fbecb1b077158ab08f497",
+        "doc_id": "1911.10049.pdf",
+        "question": "What is the improvement in performance for Estonian in the NER task?",
+        "answer": "['0.05 F1', '5 percent points.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "70e9210fe64f8d71334e5107732d764332a81cb1",
+        "doc_id": "1812.06864.pdf",
+        "question": "what is the state of the art on WSJ?",
+        "answer": "['HMM-based system', 'CNN-DNN-BLSTM-HMM']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "doc_id": "1811.12254.pdf",
+        "question": "what is the size of the augmented dataset?",
+        "answer": "609",
+        "answer_format": "Int"
+    },
+    {
+        "id": "d51dc36fbf6518226b8e45d4c817e07e8f642003",
+        "doc_id": "1908.05828.pdf",
+        "question": "How many sentences does the dataset contain?",
+        "answer": "['6946', '3606']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "cb77d6a74065cb05318faf57e7ceca05e126a80d",
+        "doc_id": "1908.05828.pdf",
+        "question": "What is the baseline?",
+        "answer": "['CNN modelBIBREF0, Stanford CRF modelBIBREF21', 'Bam et al. SVM, Ma and Hovy w/glove, Lample et al. w/fastText, Lample et al. w/word2vec']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "a1b3e2107302c5a993baafbe177684ae88d6f505",
+        "doc_id": "1908.05828.pdf",
+        "question": "What is the size of the dataset?",
+        "answer": "['ILPRL contains 548 sentences, OurNepali contains 3606 sentences', 'Dataset contains 3606 total sentences and 79087 total entities.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "1462eb312944926469e7cee067dfc7f1267a2a8c",
+        "doc_id": "1908.05828.pdf",
+        "question": "How many different types of entities exist in the dataset?",
+        "answer": "['OurNepali contains 3 different types of entities, ILPRL contains 4 different types of entities', 'three']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "f59f1f5b528a2eec5cfb1e49c87699e0c536cc45",
+        "doc_id": "1908.05828.pdf",
+        "question": "How big is the new Nepali NER dataset?",
+        "answer": "['3606 sentences', 'Dataset contains 3606 total sentences and 79087 total entities.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "9bd080bb2a089410fd7ace82e91711136116af6c",
+        "doc_id": "1908.05828.pdf",
+        "question": "What is the performance improvement of the grapheme-level representation model over the character-level model?",
+        "answer": "['On OurNepali test dataset Grapheme-level representation model achieves average 0.16% improvement, on ILPRL test dataset it achieves maximum 1.62% improvement', 'BiLSTM+CNN(grapheme-level) which turns out to be performing on par with BiLSTM+CNN(character-level) under the same configuration']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "d53299fac8c94bd0179968eb868506124af407d1",
+        "doc_id": "2002.02070.pdf",
+        "question": "What is the performance of classifiers?",
+        "answer": "['Table TABREF10,  The KNN classifier seem to perform the best across all four metrics. This is probably due to the multi-class nature of the data set,  While these classifiers did not perform particularly well, they provide a good starting point for future work on this subject', 'Using F1 Micro measure, the KNN classifier perform 0.6762, the RF 0.6687, SVM 0.6712 and MLP 0.6778.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "29f2954098f055fb19d9502572f085862d75bf61",
+        "doc_id": "2002.02070.pdf",
+        "question": "What classifiers have been trained?",
+        "answer": "[' K Nearest Neighbors (KNN), Random Forest (RF), Support Vector Machine (SVM), Multi-layer Perceptron (MLP)', 'KNN\\nRF\\nSVM\\nMLP']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "e2db361ae9ad9dbaa9a85736c5593eb3a471983d",
+        "doc_id": "1908.10084.pdf",
+        "question": "What other sentence embeddings methods are evaluated?",
+        "answer": "['GloVe, BERT, Universal Sentence Encoder, TF-IDF, InferSent', 'Avg. GloVe embeddings, Avg. fast-text embeddings, Avg. BERT embeddings, BERT CLS-vector, InferSent - GloVe and Universal Sentence Encoder.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "e79a5b6b6680bd2f63e9f4adbaae1d7795d81e38",
+        "doc_id": "1806.04511.pdf",
+        "question": "which non-english language had the best performance?",
+        "answer": "['Russian', 'Russsian']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "3e1829e96c968cbd8ad8e9ce850e3a92a76b26e4",
+        "doc_id": "1910.06592.pdf",
+        "question": "How big is the dataset used in this work?",
+        "answer": "['212 accounts', 'Total dataset size: 171 account (522967 tweets)']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "74fb77a624ea9f1821f58935a52cca3086bb0981",
+        "doc_id": "1902.09666.pdf",
+        "question": "What is the size of the new dataset?",
+        "answer": "['Dataset contains total of 14100 annotations.', '14,100 tweets']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "1b72aa2ec3ce02131e60626639f0cf2056ec23ca",
+        "doc_id": "1902.09666.pdf",
+        "question": "How long is the dataset for each step of hierarchy?",
+        "answer": "Level A: 14100 Tweets\nLevel B: 4640 Tweets\nLevel C: 4089 Tweets",
+        "answer_format": "Str"
+    },
+    {
+        "id": "bf52c01bf82612d0c7bbf2e6a5bb2570c322936f",
+        "doc_id": "1604.00400.pdf",
+        "question": "What different correlations result when using different variants of ROUGE scores?",
+        "answer": "['Using Pearson corelation measure,  for example, ROUGE-1-P is 0.257 and ROUGE-3-F 0.878.', 'we observe that many variants of Rouge scores do not have high correlations with human pyramid scores']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "52f8a3e3cd5d42126b5307adc740b71510a6bdf5",
+        "doc_id": "1810.12196.pdf",
+        "question": "What tasks were evaluated?",
+        "answer": "['Detection of an aspect in a review, Prediction of the customer general satisfaction, Prediction of the global trend of an aspect in a given review, Prediction of whether the rating of a given aspect is above or under a given value, Prediction of the exact rating of an aspect in a review, Prediction of the list of all the positive/negative aspects mentioned in the review, Comparison between aspects, Prediction of the strengths and weaknesses in a review', \"ReviewQA's test set\"]",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "ab9b0bde6113ffef8eb1c39919d21e5913a05081",
+        "doc_id": "1707.05236.pdf",
+        "question": "What are their results on both datasets?",
+        "answer": "Combining  pattern based and Machine translation approaches gave the best overall F0.5 scores. It was 49.11 for FCE dataset  , 21.87 for the first annotation of  CoNLL-14, and 30.13 for the second annotation of CoNLL-14. ",
+        "answer_format": "Str"
+    },
+    {
+        "id": "f2155dc4aeab86bf31a838c8ff388c85440fce6e",
+        "doc_id": "1908.11047.pdf",
+        "question": "Does this method help in sentiment classification task improvement?",
+        "answer": "['Yes', 'No']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "ed6a15f0f7fa4594e51d5bde21cc0c6c1bedbfdc",
+        "doc_id": "1908.11047.pdf",
+        "question": "For how many probe tasks the shallow-syntax-aware contextual embedding perform better than ELMo\u2019s embedding?",
+        "answer": "['performance of baseline ELMo-transformer and mSynC are similar, with mSynC doing slightly worse on 7 out of 9 tasks', '3']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "4d706ce5bde82caf40241f5b78338ea5ee5eb01e",
+        "doc_id": "1908.11047.pdf",
+        "question": "What are the black-box probes used?",
+        "answer": "['CCG Supertagging CCGBank , PTB part-of-speech tagging, EWT part-of-speech tagging,\\nChunking, Named Entity Recognition, Semantic Tagging, Grammar Error Detection, Preposition Supersense Role, Preposition Supersense Function, Event Factuality Detection', 'Probes are linear models trained on frozen cwrs to make predictions about linguistic (syntactic and semantic) properties of words and phrases.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "86bf75245358f17e35fc133e46a92439ac86d472",
+        "doc_id": "1908.11047.pdf",
+        "question": "What are improvements for these two approaches relative to ELMo-only baselines?",
+        "answer": "['only modest gains on three of the four downstream tasks', ' the performance differences across all tasks are small enough ']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "cd2878c5a52542ddf080b20bec005d9a74f2d916",
+        "doc_id": "1612.08205.pdf",
+        "question": "What are the industry classes defined in this paper?",
+        "answer": "['technology, religion, fashion, publishing, sports or recreation, real estate, agriculture/environment, law, security/military, tourism, construction, museums or libraries, banking/investment banking, automotive', 'Technology, Religion, Fashion, Publishing, Sports coach, Real Estate, Law, Environment, Tourism, Construction, Museums, Banking, Security, Automotive.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "fd2c6c26fd0ab3c10aae4f2550c5391576a77491",
+        "doc_id": "1907.09369.pdf",
+        "question": "Do they report results only on English data?",
+        "answer": "Yes",
+        "answer_format": "Str"
+    },
+    {
+        "id": "307e8ab37b67202fe22aedd9a98d9d06aaa169c5",
+        "doc_id": "1911.07555.pdf",
+        "question": "Does the paper report the performance of a baseline model on South African languages LID?",
+        "answer": "Yes",
+        "answer_format": "Str"
+    },
+    {
+        "id": "e5c8e9e54e77960c8c26e8e238168a603fcdfcc6",
+        "doc_id": "1911.07555.pdf",
+        "question": "Does the algorithm improve on the state-of-the-art methods?",
+        "answer": "['Yes', 'From all reported results proposed method (NB+Lex) shows best accuracy on all 3 datasets - some models are not evaluated and not available in literature.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "2ceced87af4c8fdebf2dc959aa700a5c95bd518f",
+        "doc_id": "1804.11346.pdf",
+        "question": "Is the dataset balanced between speakers of different L1s?",
+        "answer": "No",
+        "answer_format": "Str"
+    },
+    {
+        "id": "badc9db40adbbf2ea7bac29f2e4e3b6b9175b1f9",
+        "doc_id": "1909.00175.pdf",
+        "question": "What state-of-the-art results are achieved?",
+        "answer": "['for the homographic dataset F1 score of 92.19 and 80.19 on detection and location and for the heterographic dataset F1 score of 89.76 on detection', 'F1 score of 92.19 on homographic pun detection, 80.19 on homographic pun location, 89.76 on heterographic pun detection.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "67b66fe67a3cb2ce043070513664203e564bdcbd",
+        "doc_id": "1909.00175.pdf",
+        "question": "What baselines do they compare with?",
+        "answer": "They compare with the following models: by Pedersen (2017), by Pramanick and Das (2017), by Mikhalkova and Karyakin (2017),  by Vadehra (2017), Indurthi and Oota (2017), by Vechtomova (2017), by (Cai et al., 2018), and CRF.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "92294820ac0d9421f086139e816354970f066d8a",
+        "doc_id": "1910.06036.pdf",
+        "question": "How big are significant improvements?",
+        "answer": "Metrics show better results on all metrics compared to baseline except Bleu1  on Zhou split (worse by 0.11 compared to baseline). Bleu1 score on DuSplit is 45.66 compared to best baseline 43.47, other metrics on average by 1",
+        "answer_format": "Str"
+    },
+    {
+        "id": "9ec1f88ceec84a10dc070ba70e90a792fba8ce71",
+        "doc_id": "2002.01984.pdf",
+        "question": "What was their highest MRR score?",
+        "answer": "['0.5115', '0.6103']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "52f9cd05d8312ae3c7a43689804bac63f7cac34b",
+        "doc_id": "1809.03449.pdf",
+        "question": "Do the authors hypothesize that humans' robustness to noise is due to their general knowledge?",
+        "answer": "Yes",
+        "answer_format": "Str"
+    },
+    {
+        "id": "ab0fd94dfc291cf3e54e9b7a7f78b852ddc1a797",
+        "doc_id": "1903.09722.pdf",
+        "question": "What is the previous state-of-the-art in summarization?",
+        "answer": "['BIBREF26', 'BIBREF26 ']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "701571680724c05ca70c11bc267fb1160ea1460a",
+        "doc_id": "1806.11432.pdf",
+        "question": "Does the method achieve sota performance on this dataset?",
+        "answer": "No",
+        "answer_format": "Str"
+    },
+    {
+        "id": "600b097475b30480407ce1de81c28c54a0b3b2f8",
+        "doc_id": "1806.11432.pdf",
+        "question": "What are the baselines used in the paper?",
+        "answer": "GloVe vectors trained on Wikipedia Corpus with ensembling, and GloVe vectors trained on Airbnb Data without ensembling",
+        "answer_format": "Str"
+    },
+    {
+        "id": "5fda8539a97828e188ba26aad5cda1b9dd642bc8",
+        "doc_id": "1910.14537.pdf",
+        "question": "How better is performance compared to previous state-of-the-art models?",
+        "answer": "['MSR: 97.7 compared to 97.5 of baseline\\nAS: 95.7 compared to 95.6 of baseline', 'F1 score of 97.5 on MSR and 95.7 on AS']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "fabcd71644bb63559d34b38d78f6ef87c256d475",
+        "doc_id": "1910.14537.pdf",
+        "question": "What are strong baselines model is compared to?",
+        "answer": "Baseline models are:\n- Chen et al., 2015a\n- Chen et al., 2015b\n- Liu et al., 2016\n- Cai and Zhao, 2016\n- Cai et al., 2017\n- Zhou et al., 2017\n- Ma et al., 2018\n- Wang et al., 2019",
+        "answer_format": "Str"
+    },
+    {
+        "id": "2a6003a74d051d0ebbe62e8883533a5f5e55078b",
+        "doc_id": "1702.03342.pdf",
+        "question": "which neural embedding model works better?",
+        "answer": "['the CRX model', '3C model']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "1b1b0c71f1a4b37c6562d444f75c92eb2c727d9b",
+        "doc_id": "1702.03342.pdf",
+        "question": "What is the degree of dimension reduction of the efficient aggregation method?",
+        "answer": "The number of dimensions can be reduced by up to 212 times.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "9c44df7503720709eac933a15569e5761b378046",
+        "doc_id": "1805.03710.pdf",
+        "question": "For which languages do they build word embeddings for?",
+        "answer": "English",
+        "answer_format": "Str"
+    },
+    {
+        "id": "d509081673f5667060400eb325a8050fa5db7cc8",
+        "doc_id": "1909.03135.pdf",
+        "question": "How big was the corpora they trained ELMo on?",
+        "answer": "['2174 million tokens for English and 989 million tokens for Russian', '2174000000, 989000000']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "6cd25c637c6b772ce29e8ee81571e8694549c5ab",
+        "doc_id": "1804.07789.pdf",
+        "question": "What dataset is used?",
+        "answer": "['WikiBio dataset,  introduce two new biography datasets, one in French and one in German', 'English WIKIBIO, French WIKIBIO , German WIKIBIO ']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "ceb767e33fde4b927e730f893db5ece947ffb0d8",
+        "doc_id": "1810.12085.pdf",
+        "question": "what topics did they label?",
+        "answer": "['Demographics, Diagnosis History, Medication History, Procedure History, Symptoms, Labs, Procedures, Treatments, Hospital movements, and others', 'Demographics Age, DiagnosisHistory, MedicationHistory, ProcedureHistory, Symptoms/Signs, Vitals/Labs, Procedures/Results, Meds/Treatments, Movement, Other.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "c2cb6c4500d9e02fc9a1bdffd22c3df69655189f",
+        "doc_id": "1810.12085.pdf",
+        "question": "did they compare with other extractive summarization methods?",
+        "answer": "No",
+        "answer_format": "Str"
+    },
+    {
+        "id": "06eb9f2320451df83e27362c22eb02f4a426a018",
+        "doc_id": "1610.07809.pdf",
+        "question": "what levels of document preprocessing are looked at?",
+        "answer": "['Level 1, Level 2 and Level 3.', 'raw text, text cleaning through document logical structure detection, removal of keyphrase sparse sections of the document']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "46c9e5f335b2927db995a55a18b7c7621fd3d051",
+        "doc_id": "2003.03044.pdf",
+        "question": "How many different phenotypes are present in the dataset?",
+        "answer": "['Thirteen different phenotypes are present in the dataset.', '15 clinical patient phenotypes']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "ce0e2a8675055a5468c4c54dbb099cfd743df8a7",
+        "doc_id": "2003.03044.pdf",
+        "question": "What are 10 other phenotypes that are annotated?",
+        "answer": "Adv. Heart Disease, Adv. Lung Disease, Alcohol Abuse, Chronic Neurologic Dystrophies, Dementia, Depression, Developmental Delay, Obesity, Psychiatric disorders and Substance Abuse",
+        "answer_format": "Str"
+    },
+    {
+        "id": "f8c1b17d265a61502347c9a937269b38fc3fcab1",
+        "doc_id": "1909.00015.pdf",
+        "question": "HOw does the method perform compared with baselines?",
+        "answer": "On the datasets DE-EN, JA-EN, RO-EN, and EN-DE, the baseline achieves 29.79, 21.57, 32.70, and 26.02  BLEU score, respectively. The 1.5-entmax achieves  29.83, 22.13, 33.10, and 25.89 BLEU score, which is a difference of +0.04, +0.56, +0.40, and -0.13 BLEU score versus the baseline. The \u03b1-entmax achieves 29.90, 21.74, 32.89, and 26.93 BLEU score, which is a difference of +0.11, +0.17, +0.19, +0.91 BLEU score versus the baseline.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "cc608df2884e1e82679f663ed9d9d67a4b6c03f3",
+        "doc_id": "1705.01214.pdf",
+        "question": "What evaluation metrics did look at?",
+        "answer": "['precision, recall, F1 and accuracy', 'Response time, resource consumption (memory, CPU, network bandwidth), precision, recall, F1, accuracy.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "79f9468e011670993fd162543d1a4b3dd811ac5d",
+        "doc_id": "1908.07195.pdf",
+        "question": "How much improvement is gained from Adversarial Reward Augmented Maximum Likelihood (ARAML)?",
+        "answer": "['Compared to the baselines, ARAML does not do better in terms of perplexity on COCO and EMNLP 2017 WMT datasets, but it does by up to 0.27 Self-BLEU points on COCO and 0.35 Self-BLEU on EMNLP 2017 WMT. In terms of Grammaticality and Relevance, it scores better than the baselines on up to 75.5% and 73% of the cases respectively.', 'ARAM has achieved improvement over all baseline methods using reverese perplexity and  slef-BLEU metric.  The maximum reverse perplexity improvement 936,16 is gained for EMNLP2017  WMT  dataset and  48,44 for COCO dataset.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "doc_id": "1703.07090.pdf",
+        "question": "what was their character error rate?",
+        "answer": "['2.49% for  layer-wise training, 2.63% for distillation, 6.26% for transfer learning.', 'Their best model achieved a 2.49% Character Error Rate.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "c0af8b7bf52dc15e0b33704822c4a34077e09cd1",
+        "doc_id": "1703.07090.pdf",
+        "question": "which lstm models did they compare with?",
+        "answer": "Unidirectional LSTM networks with 2, 6, 7, 8, and  9 layers.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "37edc25e39515ffc2d92115d2fcd9e6ceb18898b",
+        "doc_id": "1707.03569.pdf",
+        "question": "What was the baseline?",
+        "answer": "['SVM INLINEFORM0, SVM INLINEFORM1, LR INLINEFORM2, MaxEnt', 'SVMs, LR, BIBREF2']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "e431661f17347607c3d3d9764928385a8f3d9650",
+        "doc_id": "1707.03569.pdf",
+        "question": "By how much did they improve?",
+        "answer": "They decrease MAE in 0.34",
+        "answer_format": "Str"
+    },
+    {
+        "id": "664db503509b8236bc4d3dc39cebb74498365750",
+        "doc_id": "1912.10011.pdf",
+        "question": "What is quantitative improvement of proposed method (the best variant) w.r.t. baseline (the best variant)?",
+        "answer": "Hierarchical-k",
+        "answer_format": "Str"
+    },
+    {
+        "id": "b0a18628289146472aa42f992d0db85c200ec64b",
+        "doc_id": "2003.11563.pdf",
+        "question": "What metrics are used in evaluation?",
+        "answer": "precision, recall , F1 score",
+        "answer_format": "Str"
+    },
+    {
+        "id": "5b551ba47d582f2e6467b1b91a8d4d6a30c343ec",
+        "doc_id": "1909.00105.pdf",
+        "question": "What metrics are used for evaluation?",
+        "answer": "['Byte-Pair Encoding perplexity  (BPE PPL),\\nBLEU-1,\\nBLEU-4,\\nROUGE-L,\\npercentage of distinct unigram (D-1),\\npercentage of distinct bigrams(D-2),\\nuser matching accuracy(UMA),\\nMean Reciprocal Rank(MRR)\\nPairwise preference over baseline(PP)', 'BLEU-1/4 and ROUGE-L, likelihood of generated recipes using identical input specifications but conditioned on ten different user profiles, user matching accuracy (UMA), Mean Reciprocal Rank (MRR), neural scoring model from BIBREF33 to measure recipe-level coherence', ' Distinct-1/2, UMA = User Matching Accuracy, MRR\\n= Mean Reciprocal Rank, PP = Pairwise preference over baseline (evaluated for 310 recipe pairs per model)']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "e3c9e4bc7bb93461856e1f4354f33010bc7d28d5",
+        "doc_id": "1809.06537.pdf",
+        "question": "what are the state-of-the-art models?",
+        "answer": "['SVM with lexical features in accordance with previous works BIBREF16 , BIBREF17 , BIBREF1 , BIBREF15 , BIBREF4, attention-based method BIBREF3 and other methods we deem important, some off-the-shelf RC models, including r-net BIBREF5 and AoA BIBREF6 , which are the leading models on SQuAD leaderboard', 'SVM , CNN , GRU , CNN/GRU+law, r-net , AoA ']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "0682bf049f96fa603d50f0fdad0b79a5c55f6c97",
+        "doc_id": "2003.03014.pdf",
+        "question": "Do they analyze specific derogatory words?",
+        "answer": "Yes",
+        "answer_format": "Str"
+    },
+    {
+        "id": "c17b609b0b090d7e8f99de1445be04f8f66367d4",
+        "doc_id": "1908.08345.pdf",
+        "question": "What rouge score do they achieve?",
+        "answer": "['Best results on unigram:\\nCNN/Daily Mail: Rogue F1 43.85\\nNYT: Rogue Recall 49.02\\nXSum: Rogue F1 38.81', 'Highest scores for ROUGE-1, ROUGE-2 and ROUGE-L on CNN/DailyMail test set are 43.85, 20.34 and 39.90 respectively; on the XSum test set 38.81, 16.50 and 31.27 and on the NYT test set 49.02, 31.02 and 45.55']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "6cd8bad8a031ce6d802ded90f9754088e0c8d653",
+        "doc_id": "1605.07333.pdf",
+        "question": "By how much does their best model outperform the state-of-the-art?",
+        "answer": "['0.8% F1 better than the best state-of-the-art', 'Best proposed model achieves F1 score of 84.9 compared to best previous result of 84.1.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "35b3ce3a7499070e9b280f52e2cb0c29b0745380",
+        "doc_id": "2003.08385.pdf",
+        "question": "Does the paper report the performance of the model for each individual language?",
+        "answer": "Yes",
+        "answer_format": "Str"
+    },
+    {
+        "id": "71ba1b09bb03f5977d790d91702481cc406b3767",
+        "doc_id": "2003.08385.pdf",
+        "question": "What is the performance of the baseline?",
+        "answer": "['M-Bert had 76.6 F1 macro score.', '75.1% and 75.6% accuracy']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "bd40f33452da7711b65faaa248aca359b27fddb6",
+        "doc_id": "2003.08385.pdf",
+        "question": "What was the performance of multilingual BERT?",
+        "answer": "BERT had 76.6 F1 macro score on x-stance dataset.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "e82fa03f1638a8c59ceb62bb9a6b41b498950e1f",
+        "doc_id": "1908.07245.pdf",
+        "question": "What is the state of the art system mentioned?",
+        "answer": "Two knowledge-based systems,\ntwo traditional word expert supervised systems, six recent neural-based systems, and one BERT feature-based system.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "1097768b89f8bd28d6ef6443c94feb04c1a1318e",
+        "doc_id": "1901.01010.pdf",
+        "question": "Do the methods that work best on academic papers also work best on Wikipedia?",
+        "answer": "['Yes', 'No']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "fc1679c714eab822431bbe96f0e9cf4079cd8b8d",
+        "doc_id": "1901.01010.pdf",
+        "question": "What is their system's absolute accuracy?",
+        "answer": "59.4% on wikipedia dataset, 93.4% on peer-reviewed archive AI papers, 77.1%  on peer-reviewed archive Computation and Language papers, and 79.9% on peer-reviewed archive Machine Learning papers",
+        "answer_format": "Str"
+    },
+    {
+        "id": "c35806cf68220b2b9bb082b62f493393b9bdff86",
+        "doc_id": "1809.02279.pdf",
+        "question": "What were their best results on the benchmark datasets?",
+        "answer": "['accuracy of 87.0%', 'In SNLI, our best model achieves the new state-of-the-art accuracy of 87.0%,  we can see that our models outperform other models by large margin, achieving the new state of the art., Our models achieve the new state-of-the-art accuracy on SST-2 and competitive accuracy on SST-5']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "76ed74788e3eb3321e646c48ae8bf6cdfe46dca1",
+        "doc_id": "2002.01207.pdf",
+        "question": "what linguistics features are used?",
+        "answer": "POS, gender/number and stem POS",
+        "answer_format": "Str"
+    },
+    {
+        "id": "c9305e5794b65b33399c22ac8e4e024f6b757a30",
+        "doc_id": "1909.06162.pdf",
+        "question": "What is best performing model among author's submissions, what performance it had?",
+        "answer": "For SLC task, the \"ltuorp\" team  has the best performing  model (0.6323/0.6028/0.6649 for F1/P/R  respectively) and for FLC task the \"newspeak\" team  has the best performing  model (0.2488/0.2863/0.2201 for F1/P/R respectively).",
+        "answer_format": "Str"
+    },
+    {
+        "id": "56b7319be68197727baa7d498fa38af0a8440fe4",
+        "doc_id": "1909.06162.pdf",
+        "question": "What extracted features were most influencial on performance?",
+        "answer": "['Linguistic', 'BERT']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "2268c9044e868ba0a16e92d2063ada87f68b5d03",
+        "doc_id": "1909.06162.pdf",
+        "question": "Did ensemble schemes help in boosting peformance, by how much?",
+        "answer": "['They increased F1 Score by 0.029 in Sentence Level Classification, and by 0.044 in Fragment-Level classification', 'The best ensemble topped the best single model by 0.029 in F1 score on dev (external).']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "6b7354d7d715bad83183296ce2f3ddf2357cb449",
+        "doc_id": "1909.06162.pdf",
+        "question": "Which basic neural architecture perform best by itself?",
+        "answer": "BERT",
+        "answer_format": "Str"
+    },
+    {
+        "id": "e949b28f6d1f20e18e82742e04d68158415dc61e",
+        "doc_id": "1909.06162.pdf",
+        "question": "What participating systems had better results than ones authors submitted?",
+        "answer": "For SLC task : Ituorp, ProperGander and YMJA  teams had better results.\nFor FLC task: newspeak and Antiganda teams had better results.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a3efe43a72b76b8f5e5111b54393d00e6a5c97ab",
+        "doc_id": "1810.05241.pdf",
+        "question": "What is the size of the StackExchange dataset?",
+        "answer": "around 332k questions",
+        "answer_format": "Str"
+    },
+    {
+        "id": "f1e90a553a4185a4b0299bd179f4f156df798bce",
+        "doc_id": "1810.05241.pdf",
+        "question": "What were the baselines?",
+        "answer": "['CopyRNN BIBREF0, KEA BIBREF4 and Maui BIBREF8, CopyRNN*', 'CopyRNN (Meng et al., 2017), Multi-Task (Ye and Wang, 2018), and TG-Net (Chen et al., 2018b)']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "b68f72aed961d5ba152e9dc50345e1e832196a76",
+        "doc_id": "1909.01383.pdf",
+        "question": "by how much did the BLEU score improve?",
+        "answer": "On average 0.64 ",
+        "answer_format": "Str"
+    },
+    {
+        "id": "df0257ab04686ddf1c6c4d9b0529a7632330b98e",
+        "doc_id": "2001.08868.pdf",
+        "question": "How better does new approach behave than existing solutions?",
+        "answer": "[' On the other hand, phase 1 of Go-Explore finds an optimal trajectory with approximately half the interactions with the environment, Moreover, the trajectory length found by Go-Explore is always optimal (i.e. 30 steps) whereas both DQN++ and DRQN++ have an average length of 38 and 42 respectively., Especially interesting is that the performance of DRRN is substantially lower than that of the Go-Explore Seq2Seq model', 'On Coin Collector, proposed model finds shorter path in fewer number of interactions with enironment.\\nOn Cooking World, proposed model uses smallest amount of steps and on average has bigger score and number of wins by significant margin.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "3415762847ed13acc3c90de60e3ef42612bc49af",
+        "doc_id": "1910.12795.pdf",
+        "question": "How much is classification performance improved in experiments for low data regime and class-imbalance problems?",
+        "answer": "Low data: SST-5, TREC, IMDB around 1-2 accuracy points better than baseline\nImbalanced labels: the improvement over the base model increases as the data gets more imbalanced, ranging from around 6 accuracy points on 100:1000 to over 20 accuracy points on 20:1000",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a616a3f0d244368ec588f04dfbc37d77fda01b4c",
+        "doc_id": "2003.04866.pdf",
+        "question": "What are the 12 languages covered?",
+        "answer": "Chinese Mandarin, Welsh, English, Estonian, Finnish, French, Hebrew, Polish, Russian, Spanish, Kiswahili, Yue Chinese",
+        "answer_format": "Str"
+    },
+    {
+        "id": "5fa36dc8f7c4e65acb962fc484989d20b8fdaeec",
+        "doc_id": "1901.08079.pdf",
+        "question": "Do they report results only on English data?",
+        "answer": "Yes",
+        "answer_format": "Str"
+    },
+    {
+        "id": "12159f04e0427fe33fa05af6ba8c950f1a5ce5ea",
+        "doc_id": "1705.01265.pdf",
+        "question": "Which hyperparameters were varied in the experiments on the four tasks?",
+        "answer": "['different number of clusters, different embeddings', 'number of clusters, seed value in clustering, selection of word vectors, window size and dimension of embedding']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "01f4a0a19467947a8f3bdd7ec9fac75b5222d710",
+        "doc_id": "1906.10225.pdf",
+        "question": "what were the evaluation metrics?",
+        "answer": "['Unlabeled sentence-level F1, perplexity, grammatically judgment performance', 'INLINEFORM0 scores']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "doc_id": "1712.05999.pdf",
+        "question": "What were their distribution results?",
+        "answer": "Distributions of Followers, Friends and URLs are significantly different between the set of tweets containing fake news and those non containing them, but for Favourites, Mentions, Media, Retweets and Hashtags they are not significantly different",
+        "answer_format": "Str"
+    },
+    {
+        "id": "6aaf12505add25dd133c7b0dafe8f4fe966d1f1d",
+        "doc_id": "1808.09029.pdf",
+        "question": "what previous RNN models do they compare with?",
+        "answer": "Variational LSTM, CharCNN, Pointer Sentinel-LSTM, RHN, NAS Cell, SRU, QRNN, RAN, 4-layer skip-connection LSTM, AWD-LSTM, Quantized LSTM",
+        "answer_format": "Str"
+    },
+    {
+        "id": "5bc1dc6ebcb88fd0310b21d2a74939e35a4c1a11",
+        "doc_id": "2004.04721.pdf",
+        "question": "What are the languages they use in their experiment?",
+        "answer": "['English, Spanish, Finnish', 'English\\nFrench\\nSpanish\\nGerman\\nGreek\\nBulgarian\\nRussian\\nTurkish\\nArabic\\nVietnamese\\nThai\\nChinese\\nHindi\\nSwahili\\nUrdu\\nFinnish']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "cd06d775f491b4a17c9d616a8729fd45aa2e79bf",
+        "doc_id": "2002.04181.pdf",
+        "question": "Which sentiment class is the most accurately predicted by ELS systems?",
+        "answer": "neutral sentiment",
+        "answer_format": "Str"
+    },
+    {
+        "id": "0af16b164db20d8569df4ce688d5a62c861ace0b",
+        "doc_id": "1908.06264.pdf",
+        "question": "what were the baselines?",
+        "answer": "['bag-of-words (BOW), term frequency\u2013inverse document frequency (TFIDF), neural-based word embedding, Logistic Regression (LR), Random Forest (RF), TextCNN BIBREF10 with initial word embedding as GloVe', 'BOW-LR, BOW-RF. TFIDF-RF, TextCNN, C-TextCNN']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "6a14379fee26a39631aebd0e14511ce3756e42ad",
+        "doc_id": "1908.06264.pdf",
+        "question": "What BERT models are used?",
+        "answer": "BERT-base, BERT-large, BERT-uncased, BERT-cased",
+        "answer_format": "Str"
+    },
+    {
+        "id": "40c0f97c3547232d6aa039fcb330f142668dea4b",
+        "doc_id": "1709.10367.pdf",
+        "question": "Do they evaluate on English only datasets?",
+        "answer": "No",
+        "answer_format": "Str"
+    },
+    {
+        "id": "2858620e0498db2f2224bfbed5263432f0570832",
+        "doc_id": "1908.06267.pdf",
+        "question": "Which component is the least impactful?",
+        "answer": "Based on table results provided changing directed to undirected edges had least impact - max abs difference of 0.33 points on all three datasets.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "doc_id": "1908.06267.pdf",
+        "question": "Which component has the greatest impact on performance?",
+        "answer": "['Removing the master node deteriorates performance across all datasets', 'Increasing number of message passing iterations showed consistent improvement in performance - around 1 point improvement compared between 1 and 4 iterations']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "bbb77f2d6685c9257763ca38afaaef29044b4018",
+        "doc_id": "1701.05574.pdf",
+        "question": "What is the best reported system?",
+        "answer": "['Gaze Sarcasm using Multi Instance Logistic Regression.', 'the MILR classifier']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "74b338d5352fe1a6fd592e38269a4c81fe79b866",
+        "doc_id": "1701.05574.pdf",
+        "question": "What cognitive features are used?",
+        "answer": "Readability (RED),  Number of Words (LEN), Avg. Fixation Duration (FDUR), Avg. Fixation Count (FC), Avg. Saccade Length (SL), Regression Count (REG), Skip count (SKIP), Count of regressions from second half\nto first half of the sentence (RSF), Largest Regression Position (LREG),  Edge density of the saliency gaze\ngraph (ED),  Fixation Duration at Left/Source\n(F1H, F1S),  Fixation Duration at Right/Target\n(F2H, F2S),  Forward Saccade Word Count of\nSource (PSH, PSS),  Forward SaccadeWord Count of Destination\n(PSDH, PSDS), Regressive Saccade Word Count of\nSource (RSH, RSS),  Regressive Saccade Word Count of\nDestination (RSDH, RSDS)",
+        "answer_format": "Str"
+    },
+    {
+        "id": "9d578ddccc27dd849244d632dd0f6bf27348ad81",
+        "doc_id": "1909.00694.pdf",
+        "question": "What are the results?",
+        "answer": "Using all data to train: AL -- BiGRU achieved 0.843 accuracy, AL -- BERT achieved 0.863 accuracy, AL+CA+CO -- BiGRU achieved 0.866 accuracy, AL+CA+CO -- BERT achieved 0.835, accuracy, ACP -- BiGRU achieved 0.919 accuracy, ACP -- BERT achived 0.933, accuracy, ACP+AL+CA+CO -- BiGRU achieved 0.917 accuracy, ACP+AL+CA+CO -- BERT achieved 0.913 accuracy. \nUsing a subset to train: BERT achieved 0.876 accuracy using ACP (6K), BERT achieved 0.886 accuracy using ACP (6K) + AL, BiGRU achieved 0.830 accuracy using ACP (6K), BiGRU achieved 0.879 accuracy using ACP (6K) + AL + CA + CO.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "44c4bd6decc86f1091b5fc0728873d9324cdde4e",
+        "doc_id": "1909.00694.pdf",
+        "question": "How big is the Japanese data?",
+        "answer": "['The ACP corpus has around 700k events split into positive and negative polarity ', '7000000 pairs of events were extracted from the Japanese Web corpus, 529850 pairs of events were extracted from the ACP corpus']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "c029deb7f99756d2669abad0a349d917428e9c12",
+        "doc_id": "1909.00694.pdf",
+        "question": "How big are improvements of supervszed learning results trained on smalled labeled data enhanced with proposed approach copared to basic approach?",
+        "answer": "3%",
+        "answer_format": "Str"
+    },
+    {
+        "id": "3a9d391d25cde8af3334ac62d478b36b30079d74",
+        "doc_id": "2003.07723.pdf",
+        "question": "Does the paper report macro F1?",
+        "answer": "Yes",
+        "answer_format": "Str"
+    },
+    {
+        "id": "8958465d1eaf81c8b781ba4d764a4f5329f026aa",
+        "doc_id": "1910.14497.pdf",
+        "question": "What are the three measures of bias which are reduced in experiments?",
+        "answer": "RIPA, Neighborhood Metric, WEAT",
+        "answer_format": "Str"
+    },
+    {
+        "id": "4f243056e63a74d1349488983dc1238228ca76a7",
+        "doc_id": "2003.12218.pdf",
+        "question": "Do they list all the named entity types present?",
+        "answer": "No",
+        "answer_format": "Str"
+    },
+    {
+        "id": "8f87215f4709ee1eb9ddcc7900c6c054c970160b",
+        "doc_id": "1904.09678.pdf",
+        "question": "how is quality measured?",
+        "answer": "Accuracy and the macro-F1 (averaged F1 over positive and negative classes) are used as a measure of quality.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "dc1fe3359faa2d7daa891c1df33df85558bc461b",
+        "doc_id": "1910.04269.pdf",
+        "question": "Does the model use both spectrogram images and raw waveforms as features?",
+        "answer": "No",
+        "answer_format": "Str"
+    },
+    {
+        "id": "3b745f086fb5849e7ce7ce2c02ccbde7cfdedda5",
+        "doc_id": "2001.00137.pdf",
+        "question": "By how much do they outperform other models in the sentiment in intent classification tasks?",
+        "answer": "In the sentiment classification task by 6% to 8% and in the intent classification task by 0.94% on average",
+        "answer_format": "Str"
+    },
+    {
+        "id": "680dc3e56d1dc4af46512284b9996a1056f89ded",
+        "doc_id": "2002.06644.pdf",
+        "question": "What is the baseline for the experiments?",
+        "answer": "['FastText, BiLSTM, BERT', 'FastText, BERT , two-layer BiLSTM architecture with GloVe word embeddings']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "8cc56fc44136498471754186cfa04056017b4e54",
+        "doc_id": "1809.04960.pdf",
+        "question": "By how much does their system outperform the lexicon-based models?",
+        "answer": "['Proposed model is better than both lexical based models by significan margin in all metrics: BLEU 0.261 vs 0.250, ROUGLE 0.162 vs 0.155 etc.', 'Under the retrieval evaluation setting, their proposed model + IR2 had better MRR than NVDM by 0.3769, better MR by 4.6, and better Recall@10 by  20 . \\nUnder the generative evaluation setting the proposed model + IR2 had better BLEU by 0.044 , better CIDEr by 0.033, better ROUGE by 0.032, and better METEOR by 0.029']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "171ebfdc9b3a98e4cdee8f8715003285caeb2f39",
+        "doc_id": "1909.08859.pdf",
+        "question": "How better is accuracy of new model compared to previously reported models?",
+        "answer": "Average accuracy of proposed model vs best prevous result:\nSingle-task Training: 57.57 vs 55.06\nMulti-task Training: 50.17 vs 50.59",
+        "answer_format": "Str"
+    },
+    {
+        "id": "bc9c31b3ce8126d1d148b1025c66f270581fde10",
+        "doc_id": "1905.00563.pdf",
+        "question": "What datasets are used to evaluate this approach?",
+        "answer": "[' Kinship and Nations knowledge graphs, YAGO3-10 and WN18KGs knowledge graphs ', 'WN18 and YAGO3-10']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "b0376a7f67f1568a7926eff8ff557a93f434a253",
+        "doc_id": "1902.00330.pdf",
+        "question": "How big is the performance difference between this method and the baseline?",
+        "answer": "Comparing with the highest performing baseline: 1.3 points on ACE2004 dataset, 0.6 points on CWEB dataset, and 0.86 points in the average of all scores.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "564dcaf8d0bcc274ab64c784e4c0f50d7a2c17ee",
+        "doc_id": "1810.06743.pdf",
+        "question": "Which languages do they validate on?",
+        "answer": "['Ar, Bg, Ca, Cs, Da, De, En, Es, Eu, Fa, Fi, Fr, Ga, He, Hi, Hu, It, La, Lt, Lv, Nb, Nl, Nn, PL, Pt, Ro, Ru, Sl, Sv, Tr, Uk, Ur', 'We apply this conversion to the 31 languages, Arabic, Hindi, Lithuanian, Persian, and Russian. , Dutch, Spanish']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "4547818a3bbb727c4bb4a76554b5a5a7b5c5fedb",
+        "doc_id": "1905.11901.pdf",
+        "question": "what amounts of size were used on german-english?",
+        "answer": "['ultra-low data condition (100k words of training data) and the full IWSLT 14 training corpus (3.2M words)', 'Training data with 159000, 80000, 40000, 20000, 10000 and 5000 sentences, and 7584 sentences for development']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "5908d7fb6c48f975c5dfc5b19bb0765581df2b25",
+        "doc_id": "1912.13109.pdf",
+        "question": "How big is the dataset?",
+        "answer": "['3189 rows of text messages', 'Resulting dataset was 7934 messages for train and 700 messages for test.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "66125cfdf11d3bf8e59728428e02021177142c3a",
+        "doc_id": "1911.03310.pdf",
+        "question": "How they demonstrate that language-neutral component is sufficiently general in terms of modeling semantics to allow high-accuracy word-alignment?",
+        "answer": "['explicit projection had a negligible effect on the performance', 'Table TABREF15 shows that word-alignment based on mBERT representations surpasses the outputs of the standard FastAlign tool even if it was provided large parallel corpus. This suggests that word-level semantics are well captured by mBERT contextual embeddings. For this task, learning an explicit projection had a negligible effect on the performance.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "ff28d34d1aaa57e7ad553dba09fc924dc21dd728",
+        "doc_id": "1909.00578.pdf",
+        "question": "What are their correlation results?",
+        "answer": "High correlation results range from 0.472 to 0.936",
+        "answer_format": "Str"
+    },
+    {
+        "id": "323e100a6c92d3fe503f7a93b96d821408f92109",
+        "doc_id": "1904.05584.pdf",
+        "question": "Which downstream sentence-level tasks do they evaluate on?",
+        "answer": "BIBREF13 , BIBREF18",
+        "answer_format": "Str"
+    },
+    {
+        "id": "52f7e42fe8f27d800d1189251dfec7446f0e1d3b",
+        "doc_id": "1910.03891.pdf",
+        "question": "How much better is performance of proposed method than state-of-the-art methods in experiments?",
+        "answer": "Accuracy of best proposed method KANE (LSTM+Concatenation) are 0.8011, 0.8592, 0.8605 compared to best state-of-the art method R-GCN + LR 0.7721, 0.8193, 0.8229 on three datasets respectively.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "6412e97373e8e9ae3aa20aa17abef8326dc05450",
+        "doc_id": "1610.00879.pdf",
+        "question": "What baseline model is used?",
+        "answer": "Human evaluators",
+        "answer_format": "Str"
+    },
+    {
+        "id": "957bda6b421ef7d2839c3cec083404ac77721f14",
+        "doc_id": "1610.00879.pdf",
+        "question": "What stylistic features are used to detect drunk texts?",
+        "answer": "['LDA unigrams (Presence/Count), POS Ratio, #Named Entity Mentions, #Discourse Connectors,  Spelling errors, Repeated characters, Capitalisation, Length,  Emoticon (Presence/Count ) \\n and Sentiment Ratio', 'LDA unigrams (Presence/Count), POS Ratio, #Named Entity Mentions, #Discourse Connectors, Spelling errors, Repeated characters, Capitalization, Length, Emoticon (Presence/Count), Sentiment Ratio.']",
+        "answer_format": "Multiple"
+    },
+    {
+        "id": "eb95af36347ed0e0808e19963fe4d058e2ce3c9f",
+        "doc_id": "1704.05572.pdf",
+        "question": "What is the accuracy of the proposed technique?",
+        "answer": "51.7 and 51.6 on 4th and 8th grade question sets with no curated knowledge. 47.5 and 48.0 on 4th and 8th grade question sets when both solvers are given the same knowledge",
+        "answer_format": "Str"
+    },
+    {
+        "id": "71d59c36225b5ee80af11d3568bdad7425f17b0c",
+        "doc_id": "1911.07228.pdf",
+        "question": "How much better was the BLSTM-CNN-CRF than the BLSTM-CRF?",
+        "answer": "Best BLSTM-CNN-CRF had F1 score 86.87 vs 86.69 of best BLSTM-CRF ",
+        "answer_format": "Str"
+    },
+    {
+        "id": "08333e4dd1da7d6b5e9b645d40ec9d502823f5d7",
+        "doc_id": "1603.07044.pdf",
+        "question": "How much performance gap between their approach and the strong handcrafted method?",
+        "answer": "0.007 MAP on Task A, 0.032 MAP on Task B, 0.055 MAP on Task C",
+        "answer_format": "Str"
+    },
+    {
+        "id": "8434974090491a3c00eed4f22a878f0b70970713",
+        "doc_id": "1902.09314.pdf",
+        "question": "How big is their model?",
+        "answer": "Proposed model has 1.16 million parameters and 11.04 MB.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a4e66e842be1438e5cd8d7cb2a2c589f494aee27",
+        "doc_id": "1910.11769.pdf",
+        "question": "Which tested technique was the worst performer?",
+        "answer": "Depeche + SVM",
+        "answer_format": "Str"
+    },
+    {
+        "id": "579941de2838502027716bae88e33e79e69997a6",
+        "doc_id": "1909.13375.pdf",
+        "question": "What is difference in peformance between proposed model and state-of-the art on other question types?",
+        "answer": "For single-span questions, the proposed LARGE-SQUAD improve performance of the MTMSNlarge baseline for 2.1 EM and 1.55 F1.\nFor number type question,  MTMSNlarge baseline  have improvement over LARGE-SQUAD for 3,11  EM and  2,98 F1. \nFor date question,  LARGE-SQUAD have improvements in 2,02 EM but MTMSNlarge have improvement of 4,39 F1.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "9a65cfff4d99e4f9546c72dece2520cae6231810",
+        "doc_id": "1909.13375.pdf",
+        "question": "What is the performance of proposed model on entire DROP dataset?",
+        "answer": "The proposed model achieves  EM 77,63 and F1 80,73  on the test and EM  76,95 and  F1 80,25 on the dev",
+        "answer_format": "Str"
+    },
+    {
+        "id": "47a30eb4d0d6f5f2ff4cdf6487265a25c1b18fd8",
+        "doc_id": "1909.00430.pdf",
+        "question": "Does the system trained only using XR loss outperform the fully supervised neural system?",
+        "answer": "Yes",
+        "answer_format": "Str"
+    },
+    {
+        "id": "e42fbf6c183abf1c6c2321957359c7683122b48e",
+        "doc_id": "1909.00430.pdf",
+        "question": "How accurate is the aspect based sentiment classifier trained only using the XR loss?",
+        "answer": "BiLSTM-XR-Dev Estimation accuracy is 83.31 for SemEval-15 and 87.68 for SemEval-16.\nBiLSTM-XR accuracy is 83.31 for SemEval-15 and 88.12 for SemEval-16.\n",
+        "answer_format": "Str"
+    },
+    {
+        "id": "7c794fa0b2818d354ca666969107818a2ffdda0c",
+        "doc_id": "1910.00912.pdf",
+        "question": "What metrics other than entity tagging are compared?",
+        "answer": "We also report the metrics in BIBREF7 for consistency, we report the span F1,  Exact Match (EM) accuracy of the entire sequence of labels, metric that combines intent and entities",
+        "answer_format": "Str"
+    },
+    {
+        "id": "4e9684fd68a242cb354fa6961b0e3b5c35aae4b6",
+        "doc_id": "1910.03814.pdf",
+        "question": "What is the results of multimodal compared to unimodal models?",
+        "answer": "Unimodal LSTM vs Best Multimodal (FCM)\n- F score: 0.703 vs 0.704\n- AUC: 0.732 vs 0.734 \n- Mean Accuracy: 68.3 vs 68.4 ",
+        "answer_format": "Str"
+    },
+    {
+        "id": "9e04730907ad728d62049f49ac828acb4e0a1a2a",
+        "doc_id": "1701.00185.pdf",
+        "question": "What were their performance results?",
+        "answer": "On SearchSnippets dataset ACC 77.01%, NMI 62.94%, on StackOverflow dataset ACC 51.14%, NMI 49.08%, on Biomedical dataset ACC 43.00%, NMI 38.18%",
+        "answer_format": "Str"
+    },
+    {
+        "id": "5a0841cc0628e872fe473874694f4ab9411a1d10",
+        "doc_id": "1701.00185.pdf",
+        "question": "By how much did they outperform the other methods?",
+        "answer": "on SearchSnippets dataset by 6.72% in ACC, by 6.94% in NMI; on Biomedical dataset by 5.77% in ACC, 3.91% in NMI",
+        "answer_format": "Str"
+    },
+    {
+        "id": "2d536961c6e1aec9f8491e41e383dc0aac700e0a",
+        "doc_id": "1912.01673.pdf",
+        "question": "What are all 15 types of modifications ilustrated in the dataset?",
+        "answer": "- paraphrase 1\n- paraphrase 2\n- different meaning\n- opposite meaning\n- nonsense\n- minimal change\n- generalization\n- gossip\n- formal sentence\n- non-standard sentence\n- simple sentence\n- possibility\n- ban\n- future\n- past",
+        "answer_format": "Str"
+    },
+    {
+        "id": "efb3a87845460655c53bd7365bcb8393c99358ec",
+        "doc_id": "1706.08032.pdf",
+        "question": "What were their results on the three datasets?",
+        "answer": "accuracy of 86.63 on STS, 85.14 on Sanders and 80.9 on HCR",
+        "answer_format": "Str"
+    },
+    {
+        "id": "d60a3887a0d434abc0861637bbcd9ad0c596caf4",
+        "doc_id": "1706.08032.pdf",
+        "question": "What semantic rules are proposed?",
+        "answer": "rules that compute polarity of words after POS tagging or parsing steps",
+        "answer_format": "Str"
+    },
+    {
+        "id": "8c0a0747a970f6ea607ff9b18cfeb738502d9a95",
+        "doc_id": "1911.01799.pdf",
+        "question": "What was the performance of both approaches on their dataset?",
+        "answer": "ERR of 19.05 with i-vectors and 15.52 with x-vectors",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a2be2bd84e5ae85de2ab9968147b3d49c84dfb7f",
+        "doc_id": "1911.01799.pdf",
+        "question": "What genres are covered?",
+        "answer": "genre, entertainment, interview, singing, play, movie, vlog, live broadcast, speech, drama, recitation and advertisement",
+        "answer_format": "Str"
+    },
+    {
+        "id": "944d5dbe0cfc64bf41ea36c11b1d378c408d40b8",
+        "doc_id": "1911.01799.pdf",
+        "question": "Which of the two speech recognition models works better overall on CN-Celeb?",
+        "answer": "x-vector",
+        "answer_format": "Str"
+    },
+    {
+        "id": "327e6c6609fbd4c6ae76284ca639951f03eb4a4c",
+        "doc_id": "1911.01799.pdf",
+        "question": "By how much is performance on CN-Celeb inferior to performance on VoxCeleb?",
+        "answer": "For i-vector system, performances are 11.75% inferior to voxceleb. For x-vector system, performances are 10.74% inferior to voxceleb",
+        "answer_format": "Str"
+    },
+    {
+        "id": "df8cc1f395486a12db98df805248eb37c087458b",
+        "doc_id": "1812.06705.pdf",
+        "question": "On what datasets is the new model evaluated on?",
+        "answer": "SST (Stanford Sentiment Treebank), Subj (Subjectivity dataset), MPQA Opinion Corpus, RT is another movie review sentiment dataset, TREC is a dataset for classification of the six question types",
+        "answer_format": "Str"
+    },
+    {
+        "id": "6e97c06f998f09256be752fa75c24ba853b0db24",
+        "doc_id": "1812.06705.pdf",
+        "question": "How do the authors measure performance?",
+        "answer": "Accuracy across six datasets",
+        "answer_format": "Str"
+    },
+    {
+        "id": "63bb39fd098786a510147f8ebc02408de350cb7c",
+        "doc_id": "1812.06705.pdf",
+        "question": "Are other pretrained language models also evaluated for contextual augmentation? ",
+        "answer": "No",
+        "answer_format": "Str"
+    },
+    {
+        "id": "999b20dc14cb3d389d9e3ba5466bc3869d2d6190",
+        "doc_id": "1905.08949.pdf",
+        "question": "What is the latest paper covered by this survey?",
+        "answer": "Kim et al. (2019)",
+        "answer_format": "Str"
+    },
+    {
+        "id": "6e962f1f23061f738f651177346b38fd440ff480",
+        "doc_id": "2001.06286.pdf",
+        "question": "What is the state of the art?",
+        "answer": "BERTje BIBREF8, an ULMFiT model (Universal Language Model Fine-tuning for Text Classification model) BIBREF19., mBERT",
+        "answer_format": "Str"
+    },
+    {
+        "id": "babe72f0491e65beff0e5889380e8e32d7a81f78",
+        "doc_id": "1902.00672.pdf",
+        "question": "How does the model compare with the MMR baseline?",
+        "answer": " Moreover, our TL-TranSum method also outperforms other approaches such as MaxCover ( $5\\%$ ) and MRMR ( $7\\%$ )",
+        "answer_format": "Str"
+    },
+    {
+        "id": "c180f44667505ec03214d44f4970c0db487a8bae",
+        "doc_id": "2001.10161.pdf",
+        "question": "How well did the system do?",
+        "answer": "the neural approach is generally preferred by a greater percentage of participants than the rules or random, human-made game outperforms them all",
+        "answer_format": "Str"
+    },
+    {
+        "id": "d484a71e23d128f146182dccc30001df35cdf93f",
+        "doc_id": "1909.00279.pdf",
+        "question": "How much is proposed model better in perplexity and BLEU score than typical UMT models?",
+        "answer": "Perplexity of the best model is 65.58 compared to best baseline 105.79.\nBleu of the best model is 6.57 compared to best baseline 5.50.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "94e0cf44345800ef46a8c7d52902f074a1139e1a",
+        "doc_id": "1701.02877.pdf",
+        "question": "What web and user-generated NER datasets are used for the analysis?",
+        "answer": "MUC, CoNLL, ACE, OntoNotes, MSM, Ritter, UMBC",
+        "answer_format": "Str"
+    },
+    {
+        "id": "5c90e1ed208911dbcae7e760a553e912f8c237a5",
+        "doc_id": "1911.00069.pdf",
+        "question": "How big are the datasets?",
+        "answer": "In-house dataset consists of  3716 documents \nACE05 dataset consists of  1635 documents",
+        "answer_format": "Str"
+    },
+    {
+        "id": "3aee5c856e0ee608a7664289ffdd11455d153234",
+        "doc_id": "1810.00663.pdf",
+        "question": "What was the performance of their model?",
+        "answer": "For test-repeated set, EM score of 61.17, F1 of 93.54, ED of 0.75 and GM of 61.36. For test-new set, EM score of 41.71, F1 of 91.02, ED of 1.22 and GM of 41.81",
+        "answer_format": "Str"
+    },
+    {
+        "id": "fbee81a9d90ff23603ee4f5986f9e8c0eb035b52",
+        "doc_id": "1809.05752.pdf",
+        "question": "What are their initial results on this task?",
+        "answer": "Achieved the highest per-domain scores on Substance (F1 \u2248 0.8) and the lowest scores on Interpersonal and Mood (F1 \u2248 0.5), and show consistency in per-domain performance rankings between MLP and RBF models.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "85abd60094c92eb16f39f861c6de8c2064807d02",
+        "doc_id": "1910.05154.pdf",
+        "question": "What are the different bilingual models employed?",
+        "answer": " Neural Machine Translation (NMT) models are trained between language pairs, using as source language the translation (word-level) and as target",
+        "answer_format": "Str"
+    },
+    {
+        "id": "ed7a3e7fc1672f85a768613e7d1b419475950ab4",
+        "doc_id": "1909.00754.pdf",
+        "question": "Does this approach perform better in the multi-domain or single-domain setting?",
+        "answer": "single-domain setting",
+        "answer_format": "Str"
+    },
+    {
+        "id": "1771a55236823ed44d3ee537de2e85465bf03eaf",
+        "doc_id": "2002.11402.pdf",
+        "question": "What is the difference in recall score between the systems?",
+        "answer": "Between the model and Stanford, Spacy and Flair the differences are 42.91, 25.03, 69.8 with Traditional NERs as reference and  49.88, 43.36, 62.43 with Wikipedia titles as reference.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "1d74fd1d38a5532d20ffae4abbadaeda225b6932",
+        "doc_id": "2002.11402.pdf",
+        "question": "What is their f1 score and recall?",
+        "answer": "F1 score and Recall are 68.66, 80.08 with Traditional NERs as reference and 59.56, 69.76 with Wikipedia titles as reference.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "cc9f0ac8ead575a9b485a51ddc06b9ecb2e2a44d",
+        "doc_id": "2002.00652.pdf",
+        "question": "How big is improvement in performances of proposed model over state of the art?",
+        "answer": "Compared with the previous SOTA without BERT on SParC, our model improves Ques.Match and Int.Match by $10.6$ and $5.4$ points, respectively.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "fc8bc6a3c837a9d1c869b7ee90cf4e3c39bcd102",
+        "doc_id": "1905.06566.pdf",
+        "question": "Is the baseline a non-heirarchical model like BERT?",
+        "answer": "There were hierarchical and non-hierarchical baselines; BERT was one of those baselines",
+        "answer_format": "Str"
+    },
+    {
+        "id": "40e3639b79e2051bf6bce300d06548e7793daee0",
+        "doc_id": "1901.04899.pdf",
+        "question": "Did they compare against other systems?",
+        "answer": "Yes",
+        "answer_format": "Str"
+    },
+    {
+        "id": "6ea63327ffbab2fc734dd5c2414e59d3acc56ea5",
+        "doc_id": "1606.05320.pdf",
+        "question": "How large is the gap in performance between the HMMs and the LSTMs?",
+        "answer": "With similar number of parameters, the log likelihood is about 0.1 lower for LSTMs across datasets. When the number of parameters in LSTMs is increased, their log likelihood is up to 0.7 lower.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a3f108f60143d13fe38d911b1cc3b17bdffde3bd",
+        "doc_id": "1809.10644.pdf",
+        "question": "what was their system's f1 performance?",
+        "answer": "Proposed model achieves 0.86, 0.924, 0.71 F1 score on SR, HATE, HAR datasets respectively.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "84737d871bde8058d8033e496179f7daec31c2d3",
+        "doc_id": "1910.03467.pdf",
+        "question": "Is the supervised morphological learner tested on Japanese?",
+        "answer": "No",
+        "answer_format": "Str"
+    },
+    {
+        "id": "c034f38a570d40360c3551a6469486044585c63c",
+        "doc_id": "1908.07816.pdf",
+        "question": "How better is proposed method than baselines perpexity wise?",
+        "answer": "Perplexity of proposed MEED model is 19.795 vs 19.913 of next best result on test set.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a48c6d968707bd79469527493a72bfb4ef217007",
+        "doc_id": "1810.09774.pdf",
+        "question": "Which training dataset allowed for the best generalization to benchmark sets?",
+        "answer": "MultiNLI",
+        "answer_format": "Str"
+    },
+    {
+        "id": "5dfa59c116e0ceb428efd99bab19731aa3df4bbd",
+        "doc_id": "2004.03744.pdf",
+        "question": "How many natural language explanations are human-written?",
+        "answer": "Totally 6980 validation and test image-sentence pairs have been corrected.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "8a871b136ccef78391922377f89491c923a77730",
+        "doc_id": "2001.06888.pdf",
+        "question": "What are the baseline state of the art models?",
+        "answer": "Stanford NER, BiLSTM+CRF, LSTM+CNN+CRF, T-NER and BiLSTM+CNN+Co-Attention",
+        "answer_format": "Str"
+    },
+    {
+        "id": "96c09ece36a992762860cde4c110f1653c110d96",
+        "doc_id": "1709.10217.pdf",
+        "question": "What was the result of the highest performing system?",
+        "answer": "For task 1 best F1 score was 0.9391 on closed and 0.9414 on open test.\nFor task2 best result had: Ratio 0.3175 , Satisfaction 64.53, Fluency 0, Turns -1 and Guide 2",
+        "answer_format": "Str"
+    },
+    {
+        "id": "2d274c93901c193cf7ad227ab28b1436c5f410af",
+        "doc_id": "1901.02262.pdf",
+        "question": "What are the baselines that Masque is compared against?",
+        "answer": "BiDAF, Deep Cascade QA, S-Net+CES2S, BERT+Multi-PGNet, Selector+CCG, VNET, DECAPROP, MHPGM+NOIC, ConZNet, RMR+A2D",
+        "answer_format": "Str"
+    },
+    {
+        "id": "e63bde5c7b154fbe990c3185e2626d13a1bad171",
+        "doc_id": "1901.02262.pdf",
+        "question": "What is the performance achieved on NarrativeQA?",
+        "answer": "Bleu-1: 54.11, Bleu-4: 30.43, METEOR: 26.13, ROUGE-L: 59.87",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a1064307a19cd7add32163a70b6623278a557946",
+        "doc_id": "1911.12579.pdf",
+        "question": "How many uniue words are in the dataset?",
+        "answer": "908456 unique words are available in collected corpus.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "6e8c587b6562fafb43a7823637b84cd01487059a",
+        "doc_id": "1707.00110.pdf",
+        "question": "How much is the BLEU score?",
+        "answer": "Ranges from 44.22 to 100.00 depending on K and the sequence length.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "d0c79f4a5d5c45fe673d9fcb3cd0b7dd65df7636",
+        "doc_id": "1909.01013.pdf",
+        "question": "What are new best results on standard benchmark?",
+        "answer": "New best results of accuracy (P@1) on Vecmap:\nOurs-GeoMMsemi: EN-IT 50.00 IT-EN 42.67 EN-DE 51.60 DE-EN 47.22 FI-EN 39.62 EN-ES 39.47 ES-EN 36.43",
+        "answer_format": "Str"
+    },
+    {
+        "id": "54c7fc08598b8b91a8c0399f6ab018c45e259f79",
+        "doc_id": "1909.01013.pdf",
+        "question": "How better is performance compared to competitive baselines?",
+        "answer": "Proposed method vs best baseline result on Vecmap (Accuracy P@1):\nEN-IT: 50 vs 50\nIT-EN: 42.67 vs 42.67\nEN-DE: 51.6 vs 51.47\nDE-EN: 47.22 vs 46.96\nEN-FI: 35.88 vs 36.24\nFI-EN: 39.62 vs 39.57\nEN-ES: 39.47 vs 39.30\nES-EN: 36.43 vs 36.06",
+        "answer_format": "Str"
+    },
+    {
+        "id": "03ce42ff53aa3f1775bc57e50012f6eb1998c480",
+        "doc_id": "1909.01013.pdf",
+        "question": "What 6 language pairs is experimented on?",
+        "answer": "EN<->ES\nEN<->DE\nEN<->IT\nEN<->EO\nEN<->MS\nEN<->FI",
+        "answer_format": "Str"
+    },
+    {
+        "id": "63496705fff20c55d4b3d8cdf4786f93e742dd3d",
+        "doc_id": "1605.08675.pdf",
+        "question": "Do they compare DeepER against other approaches?",
+        "answer": "Yes",
+        "answer_format": "Str"
+    },
+    {
+        "id": "447eb98e602616c01187960c9c3011c62afd7c27",
+        "doc_id": "1911.04952.pdf",
+        "question": "What are lyrical topics present in the metal genre?",
+        "answer": "Table TABREF10 displays the twenty resulting topics",
+        "answer_format": "Str"
+    },
+    {
+        "id": "f398587b9a0008628278a5ea858e01d3f5559f65",
+        "doc_id": "1910.00825.pdf",
+        "question": "By how much does SPNet outperforms state-of-the-art abstractive summarization methods on evaluation metrics?",
+        "answer": "SPNet vs best baseline:\nROUGE-1: 90.97 vs 90.68\nCIC: 70.45 vs 70.25",
+        "answer_format": "Str"
+    },
+    {
+        "id": "9fe4a2a5b9e5cf29310ab428922cc8e7b2fc1d11",
+        "doc_id": "1910.00458.pdf",
+        "question": "What are state of the art methods MMM is compared to?",
+        "answer": "FTLM++, BERT-large, XLNet",
+        "answer_format": "Str"
+    },
+    {
+        "id": "8e2b125426d1220691cceaeaf1875f76a6049cbd",
+        "doc_id": "1909.08824.pdf",
+        "question": "By how much do they improve the accuracy of inferences over state-of-the-art methods?",
+        "answer": "ON Event2Mind, the accuracy of proposed method is improved by  absolute BLUE  2.9,  10.87, 1.79 for xIntent, xReact and oReact respectively.\nOn Atomic dataset, the accuracy of proposed method is improved by  absolute BLUE 3.95.   4.11, 4.49 for xIntent, xReact and oReact.respectively.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "42bc4e0cd0f3e238a4891142f1b84ebcd6594bf1",
+        "doc_id": "1909.08824.pdf",
+        "question": "Which models do they use as baselines on the Atomic dataset?",
+        "answer": "RNN-based Seq2Seq, Variational Seq2Seq, VRNMT , CWVAE-Unpretrained",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a978a1ee73547ff3a80c66e6db3e6c3d3b6512f4",
+        "doc_id": "1701.03214.pdf",
+        "question": "How much improvement does their method get over the fine tuning baseline?",
+        "answer": "0.08 points on the 2011 test set, 0.44 points on the 2012 test set, 0.42 points on the 2013 test set for IWSLT-CE.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "b6b5f92a1d9fa623b25c70c1ac67d59d84d9eec8",
+        "doc_id": "1611.02550.pdf",
+        "question": "By how much do they outpeform previous results on the word discrimination task?",
+        "answer": "Their best average precision tops previous best result by 0.202",
+        "answer_format": "Str"
+    },
+    {
+        "id": "2d4d0735c50749aa8087d1502ab7499faa2f0dd8",
+        "doc_id": "1908.05434.pdf",
+        "question": "By how much do they outperform previous state-of-the-art models?",
+        "answer": "Proposed ORNN has 0.769, 1.238, 0.818, 0.772 compared to 0.778, 1.244, 0.813, 0.781 of best state of the art result on Mean Absolute Error (MAE), macro-averaged Mean Absolute Error (MAEM ), binary classification accuracy (Acc.) and weighted binary classification accuracy (Wt. Acc.)",
+        "answer_format": "Str"
+    },
+    {
+        "id": "ba6422e22297c7eb0baa381225a2f146b9621791",
+        "doc_id": "1909.02480.pdf",
+        "question": "What is the performance difference between proposed method and state-of-the-arts on these datasets?",
+        "answer": "Difference is around 1 BLEU score lower on average than state of the art methods.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "cc5d8e12f6aecf6a5f305e2f8b3a0c67f49801a9",
+        "doc_id": "2004.01694.pdf",
+        "question": "What percentage fewer errors did professional translations make?",
+        "answer": "36%",
+        "answer_format": "Str"
+    },
+    {
+        "id": "e659ceb184777015c12db2da5ae396635192f0b0",
+        "doc_id": "1904.10500.pdf",
+        "question": "Are the intent labels imbalanced in the dataset?",
+        "answer": "Yes",
+        "answer_format": "Str"
+    },
+    {
+        "id": "c1c611409b5659a1fd4a870b6cc41f042e2e9889",
+        "doc_id": "1711.11221.pdf",
+        "question": "What evaluations did the authors use on their system?",
+        "answer": "BLEU scores, exact matches of words in both translations and topic cache, and cosine similarities of adjacent sentences for coherence.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "46570c8faaeefecc8232cfc2faab0005faaba35f",
+        "doc_id": "1809.09795.pdf",
+        "question": "What are the 7 different datasets?",
+        "answer": "SemEval 2018 Task 3, BIBREF20, BIBREF4, SARC 2.0, SARC 2.0 pol, Sarcasm Corpus V1 (SC-V1), Sarcasm Corpus V2 (SC-V2)",
+        "answer_format": "Str"
+    },
+    {
+        "id": "e1b36927114969f3b759cba056cfb3756de474e4",
+        "doc_id": "2003.01769.pdf",
+        "question": "By how much does using phonetic feedback improve state-of-the-art systems?",
+        "answer": "Improved AECNN-T by 2.1 and AECNN-T-SM BY 0.9",
+        "answer_format": "Str"
+    },
+    {
+        "id": "f513e27db363c28d19a29e01f758437d7477eb24",
+        "doc_id": "1806.09103.pdf",
+        "question": "what are the baselines?",
+        "answer": "AS Reader, GA Reader, CAS Reader",
+        "answer_format": "Str"
+    },
+    {
+        "id": "3070d6d6a52aa070f0c0a7b4de8abddd3da4f056",
+        "doc_id": "1711.02013.pdf",
+        "question": "How do they measure performance of language model tasks?",
+        "answer": "BPC, Perplexity",
+        "answer_format": "Str"
+    },
+    {
+        "id": "157b9f6f8fb5d370fa23df31de24ae7efb75d6f3",
+        "doc_id": "1707.03764.pdf",
+        "question": "How do their results compare against other competitors in the PAN 2017 shared task on Author Profiling?",
+        "answer": "They achieved best result in the PAN 2017 shared task with accuracy for Variety prediction task 0.0013 more than the 2nd best baseline, accuracy for Gender prediction task 0.0029 more than 2nd best baseline and accuracy for Joint prediction task 0.0101 more than the 2nd best baseline",
+        "answer_format": "Str"
+    },
+    {
+        "id": "e8fcfb1412c3b30da6cbc0766152b6e11e17196c",
+        "doc_id": "1701.06538.pdf",
+        "question": "What improvement does the MOE model make over the SOTA on language modelling?",
+        "answer": "Perpexity is improved from 34.7 to 28.0.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "44104668796a6ca10e2ea3ecf706541da1cec2cf",
+        "doc_id": "1905.10810.pdf",
+        "question": "What is the difference in performance between the interpretable system (e.g. vectors and cosine distance) and LSTM with ELMo system?",
+        "answer": "Accuracy of best interpretible system was 0.3945 while accuracy of LSTM-ELMo net was 0.6818.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "c1f4d632da78714308dc502fe4e7b16ea6f76f81",
+        "doc_id": "1910.07481.pdf",
+        "question": "Which language-pair had the better performance?",
+        "answer": "French-English",
+        "answer_format": "Str"
+    },
+    {
+        "id": "e829f008d62312357e0354a9ed3b0827c91c9401",
+        "doc_id": "2001.05493.pdf",
+        "question": "Which psycholinguistic and basic linguistic features are used?",
+        "answer": "Emotion Sensor Feature, Part of Speech, Punctuation, Sentiment Analysis, Empath, TF-IDF Emoticon features",
+        "answer_format": "Str"
+    },
+    {
+        "id": "3aa7173612995223a904cc0f8eef4ff203cbb860",
+        "doc_id": "1901.02257.pdf",
+        "question": "What baseline models do they compare against?",
+        "answer": "SLQA, Rusalka, HMA Model (single), TriAN (single), jiangnan (ensemble), MITRE (ensemble), TriAN (ensemble), HMA Model (ensemble)",
+        "answer_format": "Str"
+    },
+    {
+        "id": "6f2f304ef292d8bcd521936f93afeec917cbe28a",
+        "doc_id": "2002.02492.pdf",
+        "question": "How much improvement is gained from the proposed approaches?",
+        "answer": "It eliminates non-termination in some models fixing for some models up to 6% of non-termination ratio.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "37e8f5851133a748c4e3e0beeef0d83883117a98",
+        "doc_id": "1910.08210.pdf",
+        "question": "How better is performance of proposed model compared to baselines?",
+        "answer": "Proposed model achive 66+-22 win rate, baseline CNN 13+-1  and baseline FiLM 32+-3 .",
+        "answer_format": "Str"
+    },
+    {
+        "id": "68e3f3908687505cb63b538e521756390c321a1c",
+        "doc_id": "1911.02711.pdf",
+        "question": "What is the performance difference of using a generated summary vs. a user-written one?",
+        "answer": "2.7 accuracy points",
+        "answer_format": "Str"
+    },
+    {
+        "id": "5fa464a158dc8abf7cef8ca7d42a7080670c1edd",
+        "doc_id": "1912.06670.pdf",
+        "question": "Is audio data per language balanced in dataset?",
+        "answer": "No",
+        "answer_format": "Str"
+    },
+    {
+        "id": "281cd4e78b27a62713ec43249df5000812522a89",
+        "doc_id": "1906.03538.pdf",
+        "question": "What is the average length of the claims?",
+        "answer": "Average claim length is 8.9 tokens.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "9776156fc93daa36f4613df591e2b49827d25ad2",
+        "doc_id": "1803.09230.pdf",
+        "question": "By how much, the proposed method improves BiDAF and DCN on SQuAD dataset?",
+        "answer": "In terms of F1 score, the Hybrid approach improved by 23.47% and 1.39% on BiDAF and DCN respectively. The DCA approach improved by 23.2% and 1.12% on BiDAF and DCN respectively.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "6b91fe29175be8cd8f22abf27fb3460e43b9889a",
+        "doc_id": "2003.05377.pdf",
+        "question": "what genres do they songs fall under?",
+        "answer": "Gospel, Sertanejo, MPB, Forr\u00f3, Pagode, Rock, Samba, Pop, Ax\u00e9, Funk-carioca, Infantil, Velha-guarda, Bossa-nova and Jovem-guarda",
+        "answer_format": "Str"
+    },
+    {
+        "id": "4b8a0e99bf3f2f6c80c57c0e474c47a5ee842b2c",
+        "doc_id": "2001.05467.pdf",
+        "question": "To what other competitive baselines is this approach compared?",
+        "answer": "LSTMs with and without attention, HRED, VHRED with and without attention, MMI and Reranking-RL",
+        "answer_format": "Str"
+    },
+    {
+        "id": "5e9732ff8595b31f81740082333b241d0a5f7c9a",
+        "doc_id": "2001.05467.pdf",
+        "question": "How much better were results of the proposed models than base LSTM-RNN model?",
+        "answer": "on diversity 6.87 and on relevance 4.6 points higher",
+        "answer_format": "Str"
+    },
+    {
+        "id": "c165ea43256d7ee1b1fb6f5c0c8af5f7b585e60d",
+        "doc_id": "1909.09484.pdf",
+        "question": "How much is proposed model better than baselines in performed experiments?",
+        "answer": "most of the models have similar performance on BPRA: DSTC2 (+0.0015), Maluuba (+0.0729)\nGDP achieves the best performance in APRA: DSTC2 (+0.2893), Maluuba (+0.2896)\nGDP significantly outperforms the baselines on BLEU: DSTC2 (+0.0791), Maluuba (+0.0492)",
+        "answer_format": "Str"
+    },
+    {
+        "id": "4a8bceb3b6d45f14c4749115d6aa83912f0b0a6e",
+        "doc_id": "1807.07961.pdf",
+        "question": "Do they evaluate only on English datasets?",
+        "answer": "Yes",
+        "answer_format": "Str"
+    },
+    {
+        "id": "b8cee4782e05afaeb9647efdb8858554490feba5",
+        "doc_id": "1709.05413.pdf",
+        "question": "Do they evaluate only on English datasets?",
+        "answer": "Yes",
+        "answer_format": "Str"
+    },
+    {
+        "id": "e2f269997f5a01949733c2ec8169f126dabd7571",
+        "doc_id": "1804.00079.pdf",
+        "question": "Which data sources do they use?",
+        "answer": "- En-Fr (WMT14)\n- En-De (WMT15)\n- Skipthought (BookCorpus)\n- AllNLI (SNLI + MultiNLI)\n- Parsing (PTB + 1-billion word)",
+        "answer_format": "Str"
+    },
+    {
+        "id": "c69f4df4943a2ca4c10933683a02b179a5e76f64",
+        "doc_id": "2003.12738.pdf",
+        "question": "What approach performs better in experiments global latent or sequence of fine-grained latent variables?",
+        "answer": "PPL: SVT\nDiversity: GVT\nEmbeddings Similarity: SVT\nHuman Evaluation: SVT",
+        "answer_format": "Str"
+    },
+    {
+        "id": "7772cb23b7609f1d4cfd6511ac3fcdc20f8481ba",
+        "doc_id": "1909.03544.pdf",
+        "question": "What previous approaches did this method outperform?",
+        "answer": "Table TABREF44, Table TABREF44, Table TABREF47, Table TABREF47",
+        "answer_format": "Str"
+    },
+    {
+        "id": "6992f8e5a33f0af0f2206769484c72fecc14700b",
+        "doc_id": "1811.01088.pdf",
+        "question": "Is the new model evaluated on the tasks that BERT and ELMo are evaluated on?",
+        "answer": "Yes",
+        "answer_format": "Str"
+    },
+    {
+        "id": "097ab15f58cb1fce5b5ffb5082b8d7bbee720659",
+        "doc_id": "1902.10525.pdf",
+        "question": "Which language has the lowest error rate reduction?",
+        "answer": "thai",
+        "answer_format": "Str"
+    },
+    {
+        "id": "5a23f436a7e0c33e4842425cf86d5fd8ba78ac92",
+        "doc_id": "2004.01878.pdf",
+        "question": "How big is dataset used?",
+        "answer": "553,451 documents",
+        "answer_format": "Str"
+    },
+    {
+        "id": "085147cd32153d46dd9901ab0f9195bfdbff6a85",
+        "doc_id": "1603.00968.pdf",
+        "question": "What are the baseline models?",
+        "answer": "MC-CNN\nMVCNN\nCNN",
+        "answer_format": "Str"
+    },
+    {
+        "id": "c0035fb1c2b3de15146a7ce186ccd2e366fb4da2",
+        "doc_id": "1603.00968.pdf",
+        "question": "By how much of MGNC-CNN out perform the baselines?",
+        "answer": "In terms of Subj the Average MGNC-CNN is better than the average score of baselines by 0.5.  Similarly, Scores of SST-1, SST-2, and TREC where MGNC-CNN has similar improvements. \nIn case of Irony the difference is about 2.0. \n",
+        "answer_format": "Str"
+    },
+    {
+        "id": "34dd0ee1374a3afd16cf8b0c803f4ef4c6fec8ac",
+        "doc_id": "1603.00968.pdf",
+        "question": "What are the comparable alternative architectures?",
+        "answer": "standard CNN, C-CNN, MVCNN ",
+        "answer_format": "Str"
+    },
+    {
+        "id": "53377f1c5eda961e438424d71d16150e669f7072",
+        "doc_id": "2004.01980.pdf",
+        "question": "Which state-of-the-art model is surpassed by 9.68% attraction score?",
+        "answer": "pure summarization model NHG",
+        "answer_format": "Str"
+    },
+    {
+        "id": "f37ed011e7eb259360170de027c1e8557371f002",
+        "doc_id": "2004.01980.pdf",
+        "question": "What is increase in percentage of humor contained in headlines generated with TitleStylist method (w.r.t. baselines)?",
+        "answer": "Humor in headlines (TitleStylist vs Multitask baseline):\nRelevance: +6.53% (5.87 vs 5.51)\nAttraction: +3.72% (8.93 vs 8.61)\nFluency: 1,98% (9.29 vs 9.11)",
+        "answer_format": "Str"
+    },
+    {
+        "id": "0fd678d24c86122b9ab27b73ef20216bbd9847d1",
+        "doc_id": "1804.08139.pdf",
+        "question": "What evaluation metrics are used?",
+        "answer": "Accuracy on each dataset and the average accuracy on all datasets.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "b9c0049a7a5639c33efdb6178c2594b8efdefabb",
+        "doc_id": "1911.03597.pdf",
+        "question": "How much better are results of proposed model compared to pivoting method?",
+        "answer": "our method outperforms the baseline in both relevance and fluency significantly.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "d2fbf34cf4b5b1fd82394124728b03003884409c",
+        "doc_id": "1909.07734.pdf",
+        "question": "Who was the top-scoring team?",
+        "answer": "IDEA",
+        "answer_format": "Str"
+    },
+    {
+        "id": "dd5c9a370652f6550b4fd13e2ac317eaf90973a8",
+        "doc_id": "2001.05970.pdf",
+        "question": "How strong is the correlation between the prevalence of the #MeToo movement and official reports [of sexual harassment]?",
+        "answer": "0.9098 correlation",
+        "answer_format": "Str"
+    },
+    {
+        "id": "2fa0b9d0cb26e1be8eae7e782ada6820bc2c037f",
+        "doc_id": "1710.06700.pdf",
+        "question": "What were their accuracy results on the task?",
+        "answer": "97.32%",
+        "answer_format": "Str"
+    },
+    {
+        "id": "707db46938d16647bf4b6407b2da84b5c7ab4a81",
+        "doc_id": "1912.10435.pdf",
+        "question": "How much F1 was improved after adding skip connections?",
+        "answer": "Simple Skip improves F1 from 74.34 to 74.81\nTransformer Skip improes F1 from 74.34 to 74.95 ",
+        "answer_format": "Str"
+    },
+    {
+        "id": "d8de12f5eff64d0e9c9e88f6ebdabc4cdf042c22",
+        "doc_id": "1603.04513.pdf",
+        "question": "How much gain does the model achieve with pretraining MVCNN?",
+        "answer": "0.8 points on Binary; 0.7 points on Fine-Grained; 0.6 points on Senti140; 0.7 points on Subj",
+        "answer_format": "Str"
+    },
+    {
+        "id": "9cba2ee1f8e1560e48b3099d0d8cf6c854ddea2e",
+        "doc_id": "1603.04513.pdf",
+        "question": "What are the effects of extracting features of multigranular phrases?",
+        "answer": "The system benefits from filters of each size., features of multigranular phrases are extracted with variable-size convolution filters.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "7975c3e1f61344e3da3b38bb12e1ac6dcb153a18",
+        "doc_id": "1603.04513.pdf",
+        "question": "What are the effects of diverse versions of pertained word embeddings? ",
+        "answer": "each embedding version is crucial for good performance",
+        "answer_format": "Str"
+    },
+    {
+        "id": "ea6764a362bac95fb99969e9f8c773a61afd8f39",
+        "doc_id": "1607.06025.pdf",
+        "question": "What is the highest accuracy score achieved?",
+        "answer": "82.0%",
+        "answer_format": "Str"
+    },
+    {
+        "id": "2815bac42db32d8f988b380fed997af31601f129",
+        "doc_id": "1909.00252.pdf",
+        "question": "What is improvement in accuracy for short Jokes in relation other types of jokes?",
+        "answer": "It had the highest accuracy comparing to all datasets 0.986% and It had the highest improvement comparing to previous methods on the same dataset by 8%",
+        "answer_format": "Str"
+    },
+    {
+        "id": "63403ffc0232ff041f3da8fa6c30827cfd6404b7",
+        "doc_id": "1808.09920.pdf",
+        "question": "What is the metric used with WIKIHOP?",
+        "answer": "Accuracy",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a25c1883f0a99d2b6471fed48c5121baccbbae82",
+        "doc_id": "1808.09920.pdf",
+        "question": "What performance does the Entity-GCN get on WIKIHOP?",
+        "answer": "During testing: 67.6 for single model without coreference, 66.4 for single model with coreference, 71.2 for ensemble of 5 models",
+        "answer_format": "Str"
+    },
+    {
+        "id": "79ed71a3505cf6f5e8bf121fd7ec1518cab55cae",
+        "doc_id": "2002.08899.pdf",
+        "question": "How do they damage different neural modules?",
+        "answer": "Damage to neural modules is done by randomly initializing their weights, causing the loss of all learned information.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a5b67470a1c4779877f0d8b7724879bbb0a3b313",
+        "doc_id": "1705.00108.pdf",
+        "question": "what metrics are used in evaluation?",
+        "answer": "micro-averaged F1",
+        "answer_format": "Str"
+    },
+    {
+        "id": "4640793d82aa7db30ad7b88c0bf0a1030e636558",
+        "doc_id": "1705.00108.pdf",
+        "question": "what previous systems were compared to?",
+        "answer": "Chiu and Nichols (2016), Lample et al. (2016), Ma and Hovy (2016), Yang et al. (2017), Hashimoto et al. (2016), S\u00f8gaard and Goldberg (2016) ",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a4d8fdcaa8adf99bdd1d7224f1a85c610659a9d3",
+        "doc_id": "1712.03547.pdf",
+        "question": "When they say \"comparable performance\", how much of a performance drop do these new embeddings result in?",
+        "answer": "Performance was comparable, with the proposed method quite close and sometimes exceeding performance of baseline method.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "9c4a4dfa7b0b977173e76e2d2f08fa984af86f0e",
+        "doc_id": "1910.02339.pdf",
+        "question": "How does TP-N2F compare to LSTM-based Seq2Seq in terms of training and inference speed?",
+        "answer": "Full Testing Set accuracy: 84.02\nCleaned Testing Set accuracy: 93.48",
+        "answer_format": "Str"
+    },
+    {
+        "id": "4c7ac51a66c15593082e248451e8f6896e476ffb",
+        "doc_id": "1910.02339.pdf",
+        "question": "What is the performance proposed model achieved on AlgoList benchmark?",
+        "answer": "Full Testing Set Accuracy: 84.02\nCleaned Testing Set Accuracy: 93.48",
+        "answer_format": "Str"
+    },
+    {
+        "id": "05671d068679be259493df638d27c106e7dd36d0",
+        "doc_id": "1910.02339.pdf",
+        "question": "What is the performance proposed model achieved on MathQA?",
+        "answer": "Operation accuracy: 71.89\nExecution accuracy: 55.95",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a3a871ca2417b2ada9df1438d282c45e4b4ad668",
+        "doc_id": "2003.06044.pdf",
+        "question": "How do previous methods perform on the Switchboard Dialogue Act and DailyDialog datasets?",
+        "answer": "Table TABREF20 , Table TABREF22, Table TABREF23",
+        "answer_format": "Str"
+    },
+    {
+        "id": "0fcac64544842dd06d14151df8c72fc6de5d695c",
+        "doc_id": "2003.06044.pdf",
+        "question": "What previous methods is the proposed method compared against?",
+        "answer": "BLSTM+Attention+BLSTM\nHierarchical BLSTM-CRF\nCRF-ASN\nHierarchical CNN (window 4)\nmLSTM-RNN\nDRLM-Conditional\nLSTM-Softmax\nRCNN\nCNN\nCRF\nLSTM\nBERT",
+        "answer_format": "Str"
+    },
+    {
+        "id": "b43fa27270eeba3e80ff2a03754628b5459875d6",
+        "doc_id": "2002.01359.pdf",
+        "question": "What domains are present in the data?",
+        "answer": "Alarm, Banks, Buses, Calendar, Events, Flights, Homes, Hotels, Media, Messaging, Movies, Music, Payment, Rental Cars, Restaurants, Ride Sharing, Services, Train, Travel, Weather",
+        "answer_format": "Str"
+    },
+    {
+        "id": "458dbf217218fcab9153e33045aac08a2c8a38c6",
+        "doc_id": "1612.05270.pdf",
+        "question": "How many texts/datapoints are in the SemEval, TASS and SENTIPOLC datasets?",
+        "answer": "Total number of annotated data:\nSemeval'15: 10712\nSemeval'16: 28632\nTass'15: 69000\nSentipol'14: 6428",
+        "answer_format": "Str"
+    },
+    {
+        "id": "cebf3e07057339047326cb2f8863ee633a62f49f",
+        "doc_id": "1612.05270.pdf",
+        "question": "In which languages did the approach outperform the reported results?",
+        "answer": "Arabic, German, Portuguese, Russian, Swedish",
+        "answer_format": "Str"
+    },
+    {
+        "id": "f1831b2e96ff8ef65b8fde8b4c2ee3e04b7ac4bf",
+        "doc_id": "1910.08987.pdf",
+        "question": "How close do clusters match to ground truth tone categories?",
+        "answer": "NMI between cluster assignments and ground truth tones for all sylables is:\nMandarin: 0.641\nCantonese: 0.464",
+        "answer_format": "Str"
+    },
+    {
+        "id": "20ec88c45c1d633adfd7bff7bbf3336d01fb6f37",
+        "doc_id": "1701.09123.pdf",
+        "question": "what are the evaluation metrics?",
+        "answer": "Precision, Recall, F1",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a4fe5d182ddee24e5bbf222d6d6996b3925060c8",
+        "doc_id": "1701.09123.pdf",
+        "question": "which datasets were used in evaluation?",
+        "answer": "CoNLL 2003, GermEval 2014, CoNLL 2002, Egunkaria, MUC7, Wikigold, MEANTIME, SONAR-1, Ancora 2.0",
+        "answer_format": "Str"
+    },
+    {
+        "id": "30803eefd7cdeb721f47c9ca72a5b1d750b8e03b",
+        "doc_id": "1611.00514.pdf",
+        "question": "How well does their system perform on the development set of SRE?",
+        "answer": "EER 16.04, Cmindet 0.6012, Cdet 0.6107",
+        "answer_format": "Str"
+    },
+    {
+        "id": "25e4dbc7e211a1ebe02ee8dff675b846fb18fdc5",
+        "doc_id": "1704.08960.pdf",
+        "question": "What external sources are used?",
+        "answer": "Raw data from Gigaword, Automatically segmented text from Gigaword, Heterogenous training data from People's Daily, POS data from People's Daily",
+        "answer_format": "Str"
+    },
+    {
+        "id": "75b69eef4a38ec16df63d60be9708a3c44a79c56",
+        "doc_id": "2002.05058.pdf",
+        "question": "How much better peformance is achieved in human evaluation when model is trained considering proposed metric?",
+        "answer": "Pearson correlation to human judgement - proposed vs next best metric\nSample level comparison:\n- Story generation: 0.387 vs 0.148\n- Dialogue: 0.472 vs 0.341\nModel level comparison:\n- Story generation:  0.631 vs 0.302\n- Dialogue: 0.783 vs 0.553",
+        "answer_format": "Str"
+    },
+    {
+        "id": "8a5254ca726a2914214a4c0b6b42811a007ecfc6",
+        "doc_id": "2002.06675.pdf",
+        "question": "How much transcribed data is available for for Ainu language?",
+        "answer": "Transcribed data is available for duration of 38h 54m 38s for 8 speakers.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "13d92cbc2c77134626e26166c64ca5c00aec0bf5",
+        "doc_id": "1909.08041.pdf",
+        "question": "What baseline approaches do they compare against?",
+        "answer": "HotspotQA: Yang, Ding, Muppet\nFever: Hanselowski, Yoneda, Nie",
+        "answer_format": "Str"
+    },
+    {
+        "id": "ac54a9c30c968e5225978a37032158a6ffd4ddb8",
+        "doc_id": "1909.08041.pdf",
+        "question": "Retrieval at what level performs better, sentence level or paragraph level?",
+        "answer": "This seems to indicate that the downstream QA module relies more on the upstream paragraph-level retrieval whereas the verification module relies more on the upstream sentence-level retrieval.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a7510ec34eaec2c7ac2869962b69cc41031221e5",
+        "doc_id": "1909.09270.pdf",
+        "question": "What was their F1 score on the Bengali NER corpus?",
+        "answer": "52.0%",
+        "answer_format": "Str"
+    },
+    {
+        "id": "1fb73176394ef59adfaa8fc7827395525f9a5af7",
+        "doc_id": "1903.00172.pdf",
+        "question": "Where did they get training data?",
+        "answer": "AmazonQA and ConciergeQA datasets",
+        "answer_format": "Str"
+    },
+    {
+        "id": "d70ba6053e245ee4179c26a5dabcad37561c6af0",
+        "doc_id": "1903.00172.pdf",
+        "question": "Which datasets did they experiment on?",
+        "answer": "ConciergeQA and AmazonQA",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a1c5b95e407127c6bb2f9a19b7d9b1f1bcd4a7a5",
+        "doc_id": "1705.08142.pdf",
+        "question": "Do sluice networks outperform non-transfer learning approaches?",
+        "answer": "Yes",
+        "answer_format": "Str"
+    },
+    {
+        "id": "bde6fa2057fa21b38a91eeb2bb6a3ae7fb3a2c62",
+        "doc_id": "1704.05907.pdf",
+        "question": "what state of the accuracy did they obtain?",
+        "answer": "51.5",
+        "answer_format": "Float"
+    },
+    {
+        "id": "9ebb2adf92a0f8db99efddcade02a20a219ca7d9",
+        "doc_id": "2001.08051.pdf",
+        "question": "How is the proficiency score calculated?",
+        "answer": "They used 6 indicators for proficiency (same for written and spoken) each marked by bad, medium or good by one expert.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "973f6284664675654cc9881745880a0e88f3280e",
+        "doc_id": "2001.08051.pdf",
+        "question": "What proficiency indicators are used to the score the utterances?",
+        "answer": "6 indicators:\n- lexical richness\n- pronunciation and fluency\n- syntactical correctness\n- fulfillment of delivery\n- coherence and cohesion\n- communicative, descriptive, narrative skills",
+        "answer_format": "Str"
+    },
+    {
+        "id": "0a3a8d1b0cbac559f7de845d845ebbfefb91135e",
+        "doc_id": "2001.08051.pdf",
+        "question": "What accuracy is achieved by the speech recognition system?",
+        "answer": "Accuracy not available: WER results are reported 42.6 German, 35.9 English",
+        "answer_format": "Str"
+    },
+    {
+        "id": "ec2b8c43f14227cf74f9b49573cceb137dd336e7",
+        "doc_id": "2001.08051.pdf",
+        "question": "How is the speech recognition system evaluated?",
+        "answer": "Speech recognition system is evaluated using WER metric.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "5e5460ea955d8bce89526647dd7c4f19b173ab34",
+        "doc_id": "2001.08051.pdf",
+        "question": "How many of the utterances are transcribed?",
+        "answer": "Total number of transcribed utterances including Train and Test for both Eng and Ger language is 5562 (2188 cleaned)",
+        "answer_format": "Str"
+    },
+    {
+        "id": "d7d611f622552142723e064f330d071f985e805c",
+        "doc_id": "2001.08051.pdf",
+        "question": "How many utterances are in the corpus?",
+        "answer": "Total number of utterances available is: 70607 (37344 ENG + 33263 GER)",
+        "answer_format": "Str"
+    },
+    {
+        "id": "9555aa8de322396a16a07a5423e6a79dcd76816a",
+        "doc_id": "1611.03382.pdf",
+        "question": "By how much does their model outperform both the state-of-the-art systems?",
+        "answer": "w.r.t Rouge-1 their model outperforms by 0.98% and w.r.t Rouge-L their model outperforms by 0.45%",
+        "answer_format": "Str"
+    },
+    {
+        "id": "fa3312ae4bbed11a5bebd77caf15d651962e0b26",
+        "doc_id": "1909.06937.pdf",
+        "question": "What was the performance on the self-collected corpus?",
+        "answer": "F1 scores of 86.16 on slot filling and 94.56 on intent detection",
+        "answer_format": "Str"
+    },
+    {
+        "id": "26c290584c97e22b25035f5458625944db181552",
+        "doc_id": "1909.06937.pdf",
+        "question": "What is the size of their dataset?",
+        "answer": "10,001 utterances",
+        "answer_format": "Str"
+    },
+    {
+        "id": "e2e31ab279d3092418159dfd24760f0f0566e9d3",
+        "doc_id": "1704.00939.pdf",
+        "question": "What was their performance?",
+        "answer": "beneficial impact of word-representations and basic pre-processing",
+        "answer_format": "Str"
+    },
+    {
+        "id": "1a8b7d3d126935c09306cacca7ddb4b953ef68ab",
+        "doc_id": "1707.08559.pdf",
+        "question": "What were their results?",
+        "answer": "Best model achieved F-score 74.7 on NALCS and F-score of 70.0 on LMS on test set",
+        "answer_format": "Str"
+    },
+    {
+        "id": "2e1ededb7c8460169cf3c38e6cde6de402c1e720",
+        "doc_id": "1912.10806.pdf",
+        "question": "What is the prediction accuracy of the model?",
+        "answer": "mean prediction accuracy 0.99582651\nS&P 500 Accuracy 0.99582651",
+        "answer_format": "Str"
+    },
+    {
+        "id": "af75ad21dda25ec72311c2be4589efed9df2f482",
+        "doc_id": "1902.09393.pdf",
+        "question": "How much does this system outperform prior work?",
+        "answer": "The system outperforms by 27.7% the LSTM model, 38.5% the RL-SPINN model and 41.6% the Gumbel Tree-LSTM",
+        "answer_format": "Str"
+    },
+    {
+        "id": "de12e059088e4800d7d89e4214a3997994dbc0d9",
+        "doc_id": "1902.09393.pdf",
+        "question": "What are the baseline systems that are compared against?",
+        "answer": "The system is compared to baseline models: LSTM, RL-SPINN and Gumbel Tree-LSTM",
+        "answer_format": "Str"
+    },
+    {
+        "id": "52e8f79814736fea96fd9b642881b476243e1698",
+        "doc_id": "1909.13695.pdf",
+        "question": "What systems are tested?",
+        "answer": "BULATS i-vector/PLDA\nBULATS x-vector/PLDA\nVoxCeleb x-vector/PLDA\nPLDA adaptation (X1)\n Extractor fine-tuning (X2) ",
+        "answer_format": "Str"
+    },
+    {
+        "id": "3d6015d722de6e6297ba7bfe7cb0f8a67f660636",
+        "doc_id": "1909.11467.pdf",
+        "question": "What are the 12 categories devised?",
+        "answer": "Economics, Genocide, Geography, History, Human Rights, Kurdish, Kurdology, Philosophy, Physics, Theology, Sociology, Social Study",
+        "answer_format": "Str"
+    },
+    {
+        "id": "3fb4334e5a4702acd44bd24eb1831bb7e9b98d31",
+        "doc_id": "1909.00361.pdf",
+        "question": "How big are the datasets used?",
+        "answer": "Evaluation datasets used:\nCMRC 2018 - 18939 questions, 10 answers\nDRCD - 33953 questions, 5 answers\nNIST MT02/03/04/05/06/08 Chinese-English - Not specified\n\nSource language train data:\nSQuAD - Not specified",
+        "answer_format": "Str"
+    },
+    {
+        "id": "8a0a51382d186e8d92bf7e78277a1d48958758da",
+        "doc_id": "1908.11546.pdf",
+        "question": "How better is gCAS approach compared to other approaches?",
+        "answer": "For entity  F1 in the movie, taxi and restaurant domain it results in scores of 50.86, 64, and 60.35. For success, it results it outperforms in the movie and restaurant domain with scores of 77.95 and 71.52",
+        "answer_format": "Str"
+    },
+    {
+        "id": "4a4616e1a9807f32cca9b92ab05e65b05c2a1bf5",
+        "doc_id": "1905.07464.pdf",
+        "question": "What were the sizes of the test sets?",
+        "answer": "Test set 1 contained 57 drug labels and 8208 sentences and test set 2 contained 66 drug labels and 4224 sentences",
+        "answer_format": "Str"
+    },
+    {
+        "id": "93b299acfb6fad104b9ebf4d0585d42de4047051",
+        "doc_id": "1901.09755.pdf",
+        "question": "Which datasets are used?",
+        "answer": "ABSA SemEval 2014-2016 datasets\nYelp Academic Dataset\nWikipedia dumps",
+        "answer_format": "Str"
+    },
+    {
+        "id": "02417455c05f09d89c2658f39705ac1df1daa0cd",
+        "doc_id": "2002.05829.pdf",
+        "question": "How much does it minimally cost to fine-tune some model according to benchmarking framework?",
+        "answer": "$1,728",
+        "answer_format": "Str"
+    },
+    {
+        "id": "6ce057d3b88addf97a30cb188795806239491154",
+        "doc_id": "2002.05829.pdf",
+        "question": "What models are included in baseline benchmarking results?",
+        "answer": "BERT, XLNET RoBERTa, ALBERT, DistilBERT",
+        "answer_format": "Str"
+    },
+    {
+        "id": "572458399a45fd392c3a4e07ce26dcff2ad5a07d",
+        "doc_id": "1912.00864.pdf",
+        "question": "How much more accurate is the model than the baseline?",
+        "answer": "For the Oshiete-goo dataset, the NAGM model's ROUGE-L score is higher than the highest performing conventional model, Trans, by 0.021, and its BLEU-4 score is higher than the highest performing model CLSTM by 0.037.  For the nfL6 dataset, the NAGM model's ROUGE-L score is higher than the highest performing conventional model, CLSTM, by 0.028, and its BLEU-4 score is higher than the highest performing model CLSTM by 0.040. Human evaluation of the NAGM's generated outputs for the Oshiete-goo dataset had 47% ratings of (1), the highest rating, while CLSTM only received 21% ratings of (1). For the nfL6 dataset, the comparison of (1)'s was NAGM's 50% to CLSTM's 30%. ",
+        "answer_format": "Str"
+    },
+    {
+        "id": "33d864153822bd378a98a732ace720e2c06a6bc6",
+        "doc_id": "1910.11204.pdf",
+        "question": "What is new state-of-the-art performance on CoNLL-2009 dataset?",
+        "answer": "In closed setting 84.22 F1 and in open 87.35 F1.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "bab8c69e183bae6e30fc362009db9b46e720225e",
+        "doc_id": "1910.11204.pdf",
+        "question": "What are two strong baseline methods authors refer to?",
+        "answer": "Marcheggiani and Titov (2017) and Cai et al. (2018)",
+        "answer_format": "Str"
+    },
+    {
+        "id": "1adbdb5f08d67d8b05328ccc86d297ac01bf076c",
+        "doc_id": "1810.03459.pdf",
+        "question": "What languages do they use?",
+        "answer": "Train languages are: Cantonese, Bengali, Pashto, Turkish, Vietnamese, Haitian, Tamil, Kurdish, Tokpisin and Georgian, while Assamese, Tagalog, Swahili, Lao are used as target languages.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "38c74ab8292a94fc5a82999400ee9c06be19f791",
+        "doc_id": "2002.10361.pdf",
+        "question": "How large is the corpus?",
+        "answer": "It contains 106,350 documents",
+        "answer_format": "Str"
+    },
+    {
+        "id": "16af38f7c4774637cf8e04d4b239d6d72f0b0a3a",
+        "doc_id": "2002.10361.pdf",
+        "question": "How large is the dataset?",
+        "answer": "over 104k documents",
+        "answer_format": "Str"
+    },
+    {
+        "id": "657edbf39c500b2446edb9cca18de2912c628b7d",
+        "doc_id": "1810.10254.pdf",
+        "question": "What was their perplexity score?",
+        "answer": "Perplexity score 142.84 on dev and 138.91 on test",
+        "answer_format": "Str"
+    },
+    {
+        "id": "0c7823b27326b3f5dff51f32f45fc69c91a4e06d",
+        "doc_id": "1703.06492.pdf",
+        "question": "In which setting they achieve the state of the art?",
+        "answer": "in open-ended task esp. for counting-type questions ",
+        "answer_format": "Str"
+    },
+    {
+        "id": "384d571e4017628ebb72f3debb2846efaf0cb0cb",
+        "doc_id": "1909.01958.pdf",
+        "question": "On what dataset is Aristo system trained?",
+        "answer": "Aristo Corpus\nRegents 4th\nRegents 8th\nRegents `12th\nARC-Easy\nARC-challenge ",
+        "answer_format": "Str"
+    },
+    {
+        "id": "0c09a0e8f9c5bdb678563be49f912ab6e3f97619",
+        "doc_id": "1806.07711.pdf",
+        "question": "How many roles are proposed?",
+        "answer": "12",
+        "answer_format": "Int"
+    },
+    {
+        "id": "50716cc7f589b9b9f3aca806214228b063e9695b",
+        "doc_id": "1912.03457.pdf",
+        "question": "What language technologies have been introduced in the past?",
+        "answer": "- Font & Keyboard\n- Speech-to-Text\n- Text-to-Speech\n- Text Prediction\n- Spell Checker\n- Grammar Checker\n- Text Search\n- Machine Translation\n- Voice to Text Search\n- Voice to Speech Search",
+        "answer_format": "Str"
+    },
+    {
+        "id": "73bbe0b6457423f08d9297a0951381098bd89a2b",
+        "doc_id": "1901.05280.pdf",
+        "question": "what were the baselines?",
+        "answer": "2008 Punyakanok et al. \n2009 Zhao et al. + ME \n2008 Toutanova et al. \n2010 Bjorkelund et al.  \n2015 FitzGerald et al. \n2015 Zhou and Xu \n2016 Roth and Lapata \n2017 He et al. \n2017 Marcheggiani et al.\n2017 Marcheggiani and Titov \n2018 Tan et al. \n2018 He et al. \n2018 Strubell et al. \n2018 Cai et al. \n2018 He et al. \n2018 Li et al. \n",
+        "answer_format": "Str"
+    },
+    {
+        "id": "e292676c8c75dd3711efd0e008423c11077938b1",
+        "doc_id": "1909.11297.pdf",
+        "question": "Which soft-selection approaches are evaluated?",
+        "answer": "LSTM and BERT ",
+        "answer_format": "Str"
+    },
+    {
+        "id": "2d47cdf2c1e0c64c73518aead1b94e0ee594b7a5",
+        "doc_id": "1911.01680.pdf",
+        "question": "How big is slot filing dataset?",
+        "answer": "Dataset has 1737 train, 497 dev and 559 test sentences.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "dafa760e1466e9eaa73ad8cb39b229abd5babbda",
+        "doc_id": "1809.08298.pdf",
+        "question": "How large is the dataset they generate?",
+        "answer": "4.756 million sentences",
+        "answer_format": "Str"
+    },
+    {
+        "id": "bd99aba3309da96e96eab3e0f4c4c8c70b51980a",
+        "doc_id": "1805.04033.pdf",
+        "question": "Which existing models does this approach outperform?",
+        "answer": "RNN-context, SRB, CopyNet, RNN-distract, DRGD",
+        "answer_format": "Str"
+    },
+    {
+        "id": "8ad815b29cc32c1861b77de938c7269c9259a064",
+        "doc_id": "1910.06748.pdf",
+        "question": "What languages are represented in the dataset?",
+        "answer": "EN, JA, ES, AR, PT, KO, TH, FR, TR, RU, IT, DE, PL, NL, EL, SV, FA, VI, FI, CS, UK, HI, DA, HU, NO, RO, SR, LV, BG, UR, TA, MR, BN, IN, KN, ET, SL, GU, CY, ZH, CKB, IS, LT, ML, SI, IW, NE, KM, MY, TL, KA, BO",
+        "answer_format": "Str"
+    },
+    {
+        "id": "9aa52b898d029af615b95b18b79078e9bed3d766",
+        "doc_id": "1911.08673.pdf",
+        "question": "How faster is training and decoding compared to former models?",
+        "answer": "Proposed vs best baseline:\nDecoding: 8541 vs 8532 tokens/sec\nTraining: 8h vs 8h",
+        "answer_format": "Str"
+    },
+    {
+        "id": "b13d0e463d5eb6028cdaa0c36ac7de3b76b5e933",
+        "doc_id": "1611.04642.pdf",
+        "question": "What datasets are used to evaluate the model?",
+        "answer": "WN18 and FB15k",
+        "answer_format": "Str"
+    },
+    {
+        "id": "e9ccc74b1f1b172224cf9f01e66b1fa9e34d2593",
+        "doc_id": "1909.03242.pdf",
+        "question": "What metadata is included?",
+        "answer": "besides claim, label and claim url, it also includes a claim ID, reason, category, speaker, checker, tags, claim entities, article title, publish data and claim date",
+        "answer_format": "Str"
+    },
+    {
+        "id": "e8029ec69b0b273954b4249873a5070c2a0edb8a",
+        "doc_id": "1905.12260.pdf",
+        "question": "How much important is the visual grounding in the learning of the multilingual representations?",
+        "answer": "performance is significantly degraded without pixel data",
+        "answer_format": "Str"
+    },
+    {
+        "id": "5a9f94ae296dda06c8aec0fb389ce2f68940ea88",
+        "doc_id": "1804.08050.pdf",
+        "question": "By how much does their method outperform the multi-head attention model?",
+        "answer": "Their average improvement in Character Error Rate over the best MHA model was 0.33 percent points.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "85912b87b16b45cde79039447a70bd1f6f1f8361",
+        "doc_id": "1804.08050.pdf",
+        "question": "How large is the corpus they use?",
+        "answer": "449050",
+        "answer_format": "Int"
+    },
+    {
+        "id": "58f50397a075f128b45c6b824edb7a955ee8cba1",
+        "doc_id": "2002.06424.pdf",
+        "question": "How many shared layers are in the system?",
+        "answer": "1",
+        "answer_format": "Int"
+    },
+    {
+        "id": "9adcc8c4a10fa0d58f235b740d8d495ee622d596",
+        "doc_id": "2002.06424.pdf",
+        "question": "How many additional task-specific layers are introduced?",
+        "answer": "2 for the ADE dataset and 3 for the CoNLL04 dataset",
+        "answer_format": "Str"
+    },
+    {
+        "id": "8568c82078495ab421ecbae38ddd692c867eac09",
+        "doc_id": "1909.05246.pdf",
+        "question": "How many layers of self-attention does the model have?",
+        "answer": "1, 4, 8, 16, 32, 64",
+        "answer_format": "Str"
+    },
+    {
+        "id": "b3fcab006a9e51a0178a1f64d1d084a895bd8d5c",
+        "doc_id": "1606.04631.pdf",
+        "question": "what are the state of the art methods?",
+        "answer": "S2VT, RGB (VGG), RGB (VGG)+Flow (AlexNet), LSTM-E (VGG), LSTM-E (C3D) and Yao et al.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "6baf5d7739758bdd79326ce8f50731c785029802",
+        "doc_id": "2003.07996.pdf",
+        "question": "Which four languages do they experiment with?",
+        "answer": "German, English, Italian, Chinese",
+        "answer_format": "Str"
+    },
+    {
+        "id": "5c4c8e91d28935e1655a582568cc9d94149da2b2",
+        "doc_id": "1910.10288.pdf",
+        "question": "Does DCA or GMM-based attention perform better in experiments?",
+        "answer": "About the same performance",
+        "answer_format": "Str"
+    },
+    {
+        "id": "3f326c003be29c8eac76b24d6bba9608c75aa7ea",
+        "doc_id": "1908.06083.pdf",
+        "question": "What evaluation metric is used?",
+        "answer": "F1 and Weighted-F1",
+        "answer_format": "Str"
+    },
+    {
+        "id": "14e259a312e653f8fc0d52ca5325b43c3bdfb968",
+        "doc_id": "1910.12129.pdf",
+        "question": "Is any data-to-text generation model trained on this new corpus, what are the results?",
+        "answer": "Yes, Transformer based seq2seq is evaluated with average BLEU 0.519, METEOR 0.388, ROUGE 0.631 CIDEr 2.531 and SER 2.55%.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "34fab25d9ceb9c5942daf4ebdab6c5dd4ff9d3db",
+        "doc_id": "1911.02821.pdf",
+        "question": "What dataset did they use?",
+        "answer": "weibo-100k, Ontonotes, LCQMC and XNLI",
+        "answer_format": "Str"
+    },
+    {
+        "id": "863d5c6305e5bb4b14882b85b6216fa11bcbf053",
+        "doc_id": "1906.10551.pdf",
+        "question": "What are the 12 AV approaches which are examined?",
+        "answer": "MOCC, OCCAV, COAV, AVeer, GLAD, DistAV, Unmasking, Caravel, GenIM, ImpGI, SPATIUM and NNCD",
+        "answer_format": "Str"
+    },
+    {
+        "id": "01edeca7b902ae3fd66264366bf548acea1db364",
+        "doc_id": "1808.03430.pdf",
+        "question": "What are the results achieved from the introduced method?",
+        "answer": "Their model resulted in values of 0.476, 0.672 and 0.893 for recall at position 1,2 and 5 respectively in 10 candidates.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "234ccc1afcae4890e618ff2a7b06fc1e513ea640",
+        "doc_id": "1911.05153.pdf",
+        "question": "How big is performance improvement proposed methods are used?",
+        "answer": "Data augmentation (es)  improved Adv es by 20% comparing to baseline \nData augmentation (cs) improved Adv cs by 16.5% comparing to baseline\nData augmentation (cs+es) improved both Adv cs and Adv es by at least 10% comparing to baseline \nAll models show improvements over adversarial sets  \n",
+        "answer_format": "Str"
+    },
+    {
+        "id": "4704cbb35762d0172f5ac6c26b67550921567a65",
+        "doc_id": "1811.02906.pdf",
+        "question": "By how much does transfer learning improve performance on this task?",
+        "answer": "In task 1 best transfer learning strategy improves F1 score by 4.4% and accuracy score by 3.3%, in task 2 best transfer learning strategy improves F1 score by 2.9% and accuracy score by 1.7%",
+        "answer_format": "Str"
+    },
+    {
+        "id": "e9d9bb87a5c4faa965ceddd98d8b80d4b99e339e",
+        "doc_id": "1903.09588.pdf",
+        "question": "How much do they outperform previous state-of-the-art?",
+        "answer": "On subtask 3 best proposed model has F1 score of 92.18 compared to best previous F1 score of 88.58.\nOn subtask 4 best proposed model has 85.9, 89.9 and 95.6 compared to best previous results of 82.9, 84.0 and 89.9 on 4-way, 3-way and binary aspect polarity.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "9349acbfce95cb5d6b4d09ac626b55a9cb90e55e",
+        "doc_id": "1904.01608.pdf",
+        "question": "What are the citation intent labels in the datasets?",
+        "answer": "Background, extends, uses, motivation, compare/contrast, and future work for the ACL-ARC dataset. Background, method, result comparison for the SciCite dataset.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "160e6d2fc6e04bb0b4ee8d59c06715355dec4a17",
+        "doc_id": "1911.13066.pdf",
+        "question": "What accuracy score do they obtain?",
+        "answer": "the best performing model obtained an accuracy of 0.86",
+        "answer_format": "Str"
+    },
+    {
+        "id": "30dad5d9b4a03e56fa31f932c879aa56e11ed15b",
+        "doc_id": "1911.13066.pdf",
+        "question": "What is the 12 class bilingual text?",
+        "answer": "Appreciation, Satisfied, Peripheral complaint, Demanded inquiry, Corruption, Lagged response, Unresponsive, Medicine payment, Adverse behavior, Grievance ascribed and Obnoxious/irrelevant",
+        "answer_format": "Str"
+    },
+    {
+        "id": "98eb245c727c0bd050d7686d133fa7cd9d25a0fb",
+        "doc_id": "1910.13215.pdf",
+        "question": "Was evaluation metrics and criteria were used to evaluate the output of the cascaded multimodal speech translation?",
+        "answer": "BLEU scores",
+        "answer_format": "Str"
+    },
+    {
+        "id": "6dcbe941a3b0d5193f950acbdc574f1cfb007845",
+        "doc_id": "1909.05855.pdf",
+        "question": "What are the domains covered in the dataset?",
+        "answer": "Alarm\nBank\nBus\nCalendar\nEvent\nFlight\nHome\nHotel\nMedia\nMovie\nMusic\nRentalCar\nRestaurant\nRideShare\nService\nTravel\nWeather",
+        "answer_format": "Str"
+    },
+    {
+        "id": "37eba8c3cfe23778498d95a7dfddf8dfb725f8e2",
+        "doc_id": "1703.02507.pdf",
+        "question": "Which other unsupervised models are used for comparison?",
+        "answer": "Sequential (Denoising) Autoencoder, TF-IDF BOW, SkipThought, FastSent, Siamese C-BOW, C-BOW, C-PHRASE, ParagraphVector",
+        "answer_format": "Str"
+    },
+    {
+        "id": "11dde2be9a69a025f2fc29ce647201fb5a4df580",
+        "doc_id": "1710.09340.pdf",
+        "question": "By how much does the new parser outperform the current state-of-the-art?",
+        "answer": "Proposed method achieves 94.5 UAS and 92.4 LAS  compared to 94.3 and 92.2 of best state-of-the -art greedy based parser. Best state-of-the art parser overall achieves 95.8 UAS and 94.6 LAS.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "b540cd4fe9dc4394f64d5b76b0eaa4d9e30fb728",
+        "doc_id": "1906.05474.pdf",
+        "question": "Could you tell me more about the metrics used for performance evaluation?",
+        "answer": "BLUE utilizes different metrics for each of the tasks: Pearson correlation coefficient, F-1 scores, micro-averaging, and accuracy",
+        "answer_format": "Str"
+    },
+    {
+        "id": "41173179efa6186eef17c96f7cbd8acb29105b0e",
+        "doc_id": "1906.05474.pdf",
+        "question": "which tasks are used in BLUE benchmark?",
+        "answer": "Inference task\nThe aim of the inference task is to predict whether the premise sentence entails or contradicts the hypothesis sentence, Document multilabel classification\nThe multilabel classification task predicts multiple labels from the texts., Relation extraction\nThe aim of the relation extraction task is to predict relations and their types between the two entities mentioned in the sentences., Named entity recognition\nThe aim of the named entity recognition task is to predict mention spans given in the text , Sentence similarity\nThe sentence similarity task is to predict similarity scores based on sentence pairs",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a996b6aee9be88a3db3f4127f9f77a18ed10caba",
+        "doc_id": "1906.11180.pdf",
+        "question": "What's the precision of the system?",
+        "answer": "0.8320 on semantic typing, 0.7194 on entity matching",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a6665074b067abb2676d5464f36b2cb07f6919d3",
+        "doc_id": "1908.06379.pdf",
+        "question": "What are the performances obtained for PTB and CTB?",
+        "answer": ". On PTB, our model achieves 93.90 F1 score of constituent parsing and 95.91 UAS and 93.86 LAS of dependency parsing., On CTB, our model achieves a new state-of-the-art result on both constituent and dependency parsing.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "3288a50701a80303fd71c8c5ede81cbee14fa2c7",
+        "doc_id": "1908.11365.pdf",
+        "question": "Is the proposed layer smaller in parameters than a Transformer?",
+        "answer": "No",
+        "answer_format": "Str"
+    },
+    {
+        "id": "ce807a42370bfca10fa322d6fa772e4a58a8dca1",
+        "doc_id": "1708.09609.pdf",
+        "question": "What are the four forums the data comes from?",
+        "answer": "Darkode,  Hack Forums, Blackhat and Nulled.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "79620a2b4b121b6d3edd0f7b1d4a8cc7ada0b516",
+        "doc_id": "1911.11951.pdf",
+        "question": "What are the state-of-the-art models for the task?",
+        "answer": "To the best of our knowledge, our method achieves state-of-the-art results in weighted-accuracy and standard accuracy on the dataset",
+        "answer_format": "Str"
+    },
+    {
+        "id": "1cbca15405632a2e9d0a7061855642d661e3b3a7",
+        "doc_id": "2004.03788.pdf",
+        "question": "How much improvement do they get?",
+        "answer": "Their GTRS approach got an improvement of 3.89% compared to SVM and 27.91% compared to Pawlak.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "c54de73b36ab86534d18a295f3711591ce9e1784",
+        "doc_id": "1910.10869.pdf",
+        "question": "Is this approach compared to some baseline?",
+        "answer": "No",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a379c380ac9f67f824506951444c873713405eed",
+        "doc_id": "1911.08962.pdf",
+        "question": "What are the baselines?",
+        "answer": "CNN, LSTM, BERT",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a516b37ad9d977cb9d4da3897f942c1c494405fe",
+        "doc_id": "1810.12885.pdf",
+        "question": "Which models do they try out?",
+        "answer": "DocQA, SAN, QANet, ASReader, LM, Random Guess",
+        "answer_format": "Str"
+    },
+    {
+        "id": "7f5ab9a53aef7ea1a1c2221967057ee71abb27cb",
+        "doc_id": "1911.02086.pdf",
+        "question": "Do they compare executionttime of their model against other models?",
+        "answer": "No",
+        "answer_format": "Str"
+    },
+    {
+        "id": "c38a48d65bb21c314194090d0cc3f1a45c549dd6",
+        "doc_id": "1810.02100.pdf",
+        "question": "Which English domains do they evaluate on?",
+        "answer": "Conll, Weblogs, Newsgroups, Reviews, Answers",
+        "answer_format": "Str"
+    },
+    {
+        "id": "12ac76b77f22ed3bcb6430bcd0b909441d79751b",
+        "doc_id": "1910.11235.pdf",
+        "question": "What are the competing models?",
+        "answer": "TEACHER FORCING (TF), SCHEDULED SAMPLING (SS),  SEQGAN, RANKGAN, LEAKGAN.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "0d7de323fd191a793858386d7eb8692cc924b432",
+        "doc_id": "1909.01247.pdf",
+        "question": "What writing styles are present in the corpus?",
+        "answer": "current news, historical news, free time, sports, juridical news pieces, personal adverts, editorials.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "f9c5799091e7e35a8133eee4d95004e1b35aea00",
+        "doc_id": "1908.06151.pdf",
+        "question": "What experiment result led to conclussion that reducing the number of layers of the decoder does not matter much?",
+        "answer": "Exp. 5.1",
+        "answer_format": "Str"
+    },
+    {
+        "id": "04012650a45d56c0013cf45fd9792f43916eaf83",
+        "doc_id": "1908.06151.pdf",
+        "question": "How much is performance hurt when using too small amount of layers in encoder?",
+        "answer": "comparing to the results from reducing the number of layers in the decoder, the BLEU score was 69.93 which is less than 1% in case of test2016 and in case of test2017 it was less by 0.2 %. In terms of TER it had higher score by 0.7 in case of test2016 and 0.1 in case of test2017. ",
+        "answer_format": "Str"
+    },
+    {
+        "id": "efe49829725cfe54de01405c76149a4fe4d18747",
+        "doc_id": "1901.03866.pdf",
+        "question": "How much does HAS-QA improve over baselines?",
+        "answer": "For example, in QuasarT, it improves 16.8% in EM score and 20.4% in F1 score. , For example, in QuasarT, it improves 4.6% in EM score and 3.5% in F1 score.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a49832c89a2d7f95c1fe6132902d74e4e7a3f2d0",
+        "doc_id": "1606.00189.pdf",
+        "question": "Which dataset do they evaluate grammatical error correction on?",
+        "answer": "CoNLL 2014",
+        "answer_format": "Str"
+    },
+    {
+        "id": "a02696d4ab728ddd591f84a352df9375faf7d1b4",
+        "doc_id": "1605.07683.pdf",
+        "question": "How large is the Dialog State Tracking Dataset?",
+        "answer": "1,618 training dialogs, 500 validation dialogs, and 1,117 test dialogs",
+        "answer_format": "Str"
+    },
+    {
+        "id": "1f63ccc379f01ecdccaa02ed0912970610c84b72",
+        "doc_id": "1711.00106.pdf",
+        "question": "How much is the gap between using the proposed objective and using only cross-entropy objective?",
+        "answer": "The mixed objective improves EM by 2.5% and F1 by 2.2%",
+        "answer_format": "Str"
+    },
+    {
+        "id": "dac2591f19f5bbac3d4a7fa038ff7aa09f6f0d96",
+        "doc_id": "1911.08976.pdf",
+        "question": "what are the three methods presented in the paper?",
+        "answer": "Optimized TF-IDF, iterated TF-IDF, BERT re-ranking.",
+        "answer_format": "Str"
+    },
+    {
+        "id": "f62c78be58983ef1d77049738785ec7ab9f2a3ee",
+        "doc_id": "1812.01704.pdf",
+        "question": "what datasets did the authors use?",
+        "answer": "Kaggle\nSubversive Kaggle\nWikipedia\nSubversive Wikipedia\nReddit\nSubversive Reddit ",
+        "answer_format": "Str"
+    },
+    {
+        "id": "39a450ac15688199575798e72a2cc016ef4316b5",
+        "doc_id": "1712.03556.pdf",
+        "question": "How much performance improvements they achieve on SQuAD?",
+        "answer": "Compared to baselines SAN (Table 1) shows  improvement of 1.096% on EM and 0.689% F1. Compared to other published SQuAD results (Table 2) SAN is ranked second. ",
+        "answer_format": "Str"
+    }
+]
