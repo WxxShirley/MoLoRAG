@@ -1,19 +1,28 @@
 # MoLoRAG
 
-This repository is the official implementation for our EMNLP 2025 paper: **MoLoRAG: Bootstrapping Document Understanding via Multi-modal Logic-aware Retrieval**.
+<p align="center">
+   <a href="https://arxiv.org/abs/xxxx.xxxxx"><img src="https://img.shields.io/badge/📝-Paper-blue" height="25"></a>
+   <a href="https://huggingface.co/datasets/xxwu/MoLoRAG"><img src="https://img.shields.io/badge/🤗-Dataset-green" height="25"></a>
+   <a href="https://huggingface.co/xxwu/MoLoRAG-QwenVL-3B"><img src="https://img.shields.io/badge/🚀-Model-yellow" height="25"></a>
+</p>
+
+
+This repository is the official implementation for our EMNLP 2025 paper: **MoLoRAG: Bootstrapping Document Understanding via Multi-modal Logic-aware Retrieval**. Our paper tackles the DocQA task by addressing the limitations of prior methods that rely only on semantic relevance for retrieval. By incorporating logical relevance, our VLM-powered retrieval
+engine performs **multi-hop reasoning over page graph** to identify key pages.
 
 > Please consider citing or giving a 🌟 if our repository is helpful to your work!
 
 ```
 @inproceedings{wu2025molorag
-title={MoLoRAG: Bootstrapping Document Understanding via Multi-modal Logic-aware Retrieval},
-author={Xixi Wu and Yanchao Tan and Nan Hou and Ruiyang Zhang and Hong Cheng},
-year={2025},
-booktitle={Conference on Empirical Methods in Natural Language Processing},
-url={https://arxiv.org/abs/xxxx.xxxxx},
+   title={MoLoRAG: Bootstrapping Document Understanding via Multi-modal Logic-aware Retrieval},
+   author={Xixi Wu and Yanchao Tan and Nan Hou and Ruiyang Zhang and Hong Cheng},
+   year={2025},
+   booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
+   url={https://arxiv.org/abs/xxxx.xxxxx},
 }
 ```
-### 📢 News
+
+### 🎙️ News 
 
 🎉 **[2025-08-24]** Our paper is accepted to **EMNLP 2025**. The camera ready paper and fully reviewed codes will be released soon!
 
@@ -40,9 +49,12 @@ huggingface-cli download --repo-type dataset xxwu/MoLoRAG --local-dir ./dataset/
 
 ## 🔧 Environment
 
+> The full package versions can be found in `env/main.txt` and `env/qwenvl.txt`, respectively. Please refer to these files for detailed package versions.
+
 **For Qwen2.5-VL-series models**:
 ```bash
 transformers==4.50.0.dev0
+xformers==0.0.29.post3
 torch==2.6.0
 qwen-vl-utils==0.0.8
 ```
@@ -57,6 +69,10 @@ langchain==0.3.19
 langchain-community==0.3.18
 langchain-core==0.3.37
 langchain-text-splitters==0.3.6
+PyMuPDF==1.25.3
+pypdf==5.3.0
+pypdfium2==4.30.1
+pdf2image==1.17.0
 ```
 
 ## 🤗 Model
@@ -71,6 +87,8 @@ The training data for fine-tuning this retriever to enable its logic-aware abili
 
 ## 🚀 Run
 
+> Before running the code, please check if you need to **fill in the API Keys** or **prepare the model/data**
+
 ### LLM Baselines
 Codes and commands are available in the [`LLMBaseline`](./LLMBaseline) directory.
 
@@ -82,10 +100,15 @@ Codes and commands are available in the [`LLMBaseline`](./LLMBaseline) directory
 
 **Step 2** - Evaluate the inference following commands in [`example_run_eval.sh`](./example_run_eval.sh)
 
+## ✏️ TODO 
+
+- [ ] Provide tailored MDocAgent code
+- [ ] Provide detailed scripts or running tutorials
+
 ## 📮 Contact
 
 If you have any questions about usage, reproducibility, or would like to discuss, please feel free to open an issue on GitHub or contact the authors via email at [xxwu@se.cuhk.edu.hk](mailto:xxwu@se.cuhk.edu.hk)
 
 ## 🙏 Acknowledgements
 
-We thank the open-sourced datasets, [MMLongBench](https://github.com/mayubo2333/MMLongBench-Doc/) and [LongDocURL](https://github.com/dengc2023/LongDocURL/). We also appreciate the official implementations of [M3DocRAG](https://github.com/bloomberg/m3docrag) and [MDocAgent](https://github.com/aiming-lab/MDocAgent).
+We thank the open-sourced datasets, [MMLongBench](https://github.com/mayubo2333/MMLongBench-Doc/), [LongDocURL](https://github.com/dengc2023/LongDocURL/), [UDA-Benchmark](https://github.com/qinchuanhui/UDA-Benchmark). We also appreciate the official implementations of [M3DocRAG](https://github.com/bloomberg/m3docrag) and [MDocAgent](https://github.com/aiming-lab/MDocAgent).
