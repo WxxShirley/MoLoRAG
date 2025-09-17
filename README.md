@@ -1,7 +1,7 @@
 # MoLoRAG
 
 <p align="center">
-   <a href="https://arxiv.org/abs/xxxx.xxxxx"><img src="https://img.shields.io/badge/📝-Paper-blue" height="25"></a>
+   <a href="https://arxiv.org/abs/2509.07666"><img src="https://img.shields.io/badge/📝-Paper-blue" height="25"></a>
    <a href="https://huggingface.co/datasets/xxwu/MoLoRAG"><img src="https://img.shields.io/badge/🤗-Dataset-green" height="25"></a>
    <a href="https://huggingface.co/xxwu/MoLoRAG-QwenVL-3B"><img src="https://img.shields.io/badge/🚀-Model-yellow" height="25"></a>
 </p>
@@ -18,13 +18,13 @@ engine performs **multi-hop reasoning over page graph** to identify key pages.
    author={Xixi Wu and Yanchao Tan and Nan Hou and Ruiyang Zhang and Hong Cheng},
    year={2025},
    booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
-   url={https://arxiv.org/abs/xxxx.xxxxx},
+   url={https://arxiv.org/abs/2509.07666},
 }
 ```
 
 ### 🎙️ News 
 
-🎉 **[2025-08-24]** Our paper is accepted to **EMNLP 2025**. The camera ready paper and fully reviewed codes will be released soon!
+🎉 **[2025-08-24]** Our paper is accepted to **EMNLP 2025**. The [camera ready paper](https://arxiv.org/abs/2509.07666) and fully reviewed codes will be released soon!
 
 ---
 
