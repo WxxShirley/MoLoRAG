@@ -4,6 +4,8 @@
    <a href="https://arxiv.org/abs/2509.07666"><img src="https://img.shields.io/badge/📝-Paper-blue" height="25"></a>
    <a href="https://huggingface.co/datasets/xxwu/MoLoRAG"><img src="https://img.shields.io/badge/🤗-Dataset-green" height="25"></a>
    <a href="https://huggingface.co/xxwu/MoLoRAG-QwenVL-3B"><img src="https://img.shields.io/badge/🚀-Model-yellow" height="25"></a>
+   <a href="./StepByStepGuide.md"><img src="https://img.shields.io/badge/📑-Repro%20Guide%20(EN)-8A2BE2" height="25"></a>
+   <a href="./StepByStepGuide_zh.md"><img src="https://img.shields.io/badge/📑-复现指南%20(中文)-8A2BE2" height="25"></a>
 </p>
 
 
@@ -88,6 +90,8 @@ The training data for fine-tuning this retriever to enable its logic-aware abili
 ## 🚀 Run
 
 > Before running the code, please check if you need to **fill in the API Keys** or **prepare the model/data**
+
+For detailed, fully verified reproduction steps (including common pitfalls like environment mismatches and hardcoded local paths), please refer to [`StepByStepGuide.md`](./StepByStepGuide.md) and [`StepByStepGuide_zh.md`](./StepByStepGuide_zh.md).
 
 ### LLM Baselines
 Codes and commands are available in the [`LLMBaseline`](./LLMBaseline) directory.
