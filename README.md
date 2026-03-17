@@ -55,7 +55,7 @@ huggingface-cli download --repo-type dataset xxwu/MoLoRAG --local-dir ./dataset/
 
 **For Qwen2.5-VL-series models**:
 ```bash
-transformers==4.50.0.dev0
+transformers==4.50.1
 xformers==0.0.29.post3
 torch==2.6.0
 qwen-vl-utils==0.0.8
